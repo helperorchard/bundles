@@ -4,7 +4,7 @@ description: "Builds a timed agenda from the topics people sent in, with an owne
 license: MIT
 metadata:
   author: "Drok AI"
-  version: "1.0.0"
+  version: "1.0.1"
   category: "operations"
 ---
 
@@ -21,7 +21,7 @@ Use this before a team meeting when topics came in from several people.
 1. Merge topics that are the same thing said two ways.
 2. For each topic, write the decision or output needed ("decide X", "agree owner for Y", "share update on Z").
 3. Put decisions first, then updates. Updates that need no discussion go to a "Read before" list instead.
-4. Give each item minutes so the total is at most the meeting length minus 5 minutes for wrap-up.
+4. Give each item minutes so all items, including the action check, end 5 minutes before the meeting ends. The last 5 minutes are wrap-up: confirm owners and dates.
 5. Start with a 5-minute check of last meeting's actions if any were given.
 6. Return the agenda as a numbered list: time, item, owner, decision needed.
 

@@ -5,7 +5,7 @@ license: MIT
 compatibility: "Needs web access."
 metadata:
   author: "Drok AI"
-  version: "1.0.1"
+  version: "1.0.2"
 ---
 
 # Weekly Topic Brief
@@ -27,6 +27,7 @@ Use this when someone wants a weekly roundup of news on topics, products, or com
 - Every claim needs a link you actually opened. No link, no claim.
 - Do not use items older than 7 days unless marked "older".
 - Keep the whole brief under 400 words.
+- An item is a specific dated announcement, article, or release, not a description of a website, its menus, or its categories. If you only reached a site's front page, open its newest posts; if none are from the last 7 days, write "Nothing new".
 
 ## Done when
 Each topic has items with links and dates, or a "Nothing new" line.
