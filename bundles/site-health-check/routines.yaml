@@ -1,0 +1,6 @@
+routines:
+  - name: Morning site check
+    cron: "0 8 * * *"
+    schedule_text: "every day at 08:00"
+    skill: site-health-check
+    prompt: "Run site-health-check on the sites in memory and send me the table."

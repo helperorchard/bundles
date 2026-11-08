@@ -1,0 +1,6 @@
+routines:
+  - name: Friday open items
+    cron: "0 16 * * 5"
+    schedule_text: "every Friday at 16:00"
+    skill: meeting-actions
+    prompt: "List any action items from this week's meeting-actions results that still say 'owner not set' or 'no date'."

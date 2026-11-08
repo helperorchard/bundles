@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "fetch": {
+      "command": "uvx",
+      "args": [
+        "mcp-server-fetch"
+      ],
+      "note": "Official MCP reference server: https://github.com/modelcontextprotocol/servers/tree/main/src/fetch. Optional if your harness already has web fetch."
+    }
+  }
+}

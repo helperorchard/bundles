@@ -1,0 +1,6 @@
+routines:
+  - name: Monday brief
+    cron: "0 9 * * 1"
+    schedule_text: "every Monday at 09:00"
+    skill: weekly-topic-brief
+    prompt: "Run weekly-topic-brief for the topics in memory."

@@ -1,0 +1,6 @@
+routines:
+  - name: Weekday draft reminder
+    cron: "0 10 * * 1-5"
+    schedule_text: "weekdays at 10:00"
+    skill: first-touch-draft
+    prompt: "Ask me for today's prospects, then run first-touch-draft for each one."
