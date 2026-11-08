@@ -1,10 +1,10 @@
 # Weekly Expense Summary
 
-Groups a week of card or bank transactions you paste into categories and flags anything unusual or recurring.
+Seven days of spend, sorted and compared to budget.
 
-Category: Operations. Suggested schedule: every Sunday at 18:00.
+Sunday at 18:00, with the week's charges pasted in.
 
-Files: `skills/weekly-expense-summary/SKILL.md` (the skill), `memory.md` (facts to fill in and keep), `routines.yaml` (schedule), `mcp.json` (connectors), `goose-recipe.yaml`.
+Spending rules are `skills/weekly-expense-summary/SKILL.md`. Budget and nicknames go in `memory.md`. Sunday evening is `routines.yaml`. `mcp.json` is not a bank. Goose runs `goose-recipe.yaml`.
 
 ## Install
 
@@ -29,6 +29,6 @@ goose schedule add --schedule-id weekly-expense-summary --cron "0 0 18 * * 0" --
 Manual copy: put `skills/weekly-expense-summary` in `~/.agents/skills/` (Codex, Goose, Cursor) or `~/.claude/skills/` (Claude Code).
 
 ## Connectors
-This bundle uses no connectors.
+No bank link. Paste the transactions from your statement.
 
-License: MIT. Original writing by Drok AI.
+MIT license, no extra catch. Author credit: Drok AI.

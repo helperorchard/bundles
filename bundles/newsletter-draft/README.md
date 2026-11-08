@@ -1,10 +1,10 @@
 # Newsletter Draft
 
-Turns your rough notes and links from the week into a short, readable newsletter draft with a subject line.
+Rough links and notes become one short issue.
 
-Category: Marketing. Suggested schedule: every Thursday at 15:00.
+Thursday at 15:00, once the week's links are in.
 
-Files: `skills/newsletter-draft/SKILL.md` (the skill), `memory.md` (facts to fill in and keep), `routines.yaml` (schedule), `mcp.json` (connectors), `goose-recipe.yaml`.
+Issue writing is `skills/newsletter-draft/SKILL.md`. The name and sign-off live in `memory.md`. Thursday's nudge is `routines.yaml`. `mcp.json` does not mail anyone. Goose: see `goose-recipe.yaml`.
 
 ## Install
 
@@ -29,6 +29,6 @@ goose schedule add --schedule-id newsletter-draft --cron "0 0 15 * * 4" --recipe
 Manual copy: put `skills/newsletter-draft` in `~/.agents/skills/` (Codex, Goose, Cursor) or `~/.claude/skills/` (Claude Code).
 
 ## Connectors
-This bundle uses no connectors.
+No sending service. You get the draft and you mail it.
 
-License: MIT. Original writing by Drok AI.
+Covered by the MIT license. The author to name is Drok AI.

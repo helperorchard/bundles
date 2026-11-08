@@ -1,10 +1,10 @@
 version: 1.0.0
 title: Content Calendar
-description: "Plans the next two weeks of posts from your goals and past posts, with a date, channel, and hook for each."
+description: "Dated post ideas for the next fortnight."
 instructions: |
   # Content Calendar
 
-  Use this when someone wants a simple posting plan for the coming two weeks.
+  Fill the calendar before the blank weeks arrive.
 
   ## Inputs
   - Channels they post on and how often (from memory or ask).

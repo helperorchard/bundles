@@ -1,6 +1,6 @@
 ---
 name: job-post-watch
-description: "Checks the careers pages you list for new roles that match your title and location, and reports only the new ones."
+description: "Matching job posts that were not on last time's list."
 license: MIT
 compatibility: "Needs web access."
 metadata:
@@ -11,7 +11,7 @@ metadata:
 
 # Job Post Watch
 
-Use this when someone is job hunting and wants to know about new openings at companies they like.
+Only roles that fit your titles and place get through.
 
 ## Inputs
 - Careers page URLs (from memory).

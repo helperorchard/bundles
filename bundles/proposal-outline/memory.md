@@ -1,5 +1,6 @@
 # Memory
 
 - My rate or price range: (fill in)
-- Standard payment terms: (e.g. 50% upfront)
-- Offer valid for: 14 days
+- Usual payment terms: (example: half up front)
+- The offer stays open for 14 days
+- This outline waits here until I send it myself

@@ -1,10 +1,10 @@
 # Social Post Repurpose
 
-Rewrites one piece you already made (blog post, video script, talk) into posts sized for each of your channels.
+Same story, trimmed for every place you post.
 
-Category: Marketing. Run on demand; no schedule suggested.
+When a blog, script, or talk is finished. No weekly slot.
 
-Files: `skills/social-post-repurpose/SKILL.md` (the skill), `memory.md` (facts to fill in and keep), `routines.yaml` (schedule), `mcp.json` (connectors), `goose-recipe.yaml`.
+Reshaping rules are `skills/social-post-repurpose/SKILL.md`. Channels and banned phrases live in `memory.md`. `routines.yaml` leaves the timing to you. `mcp.json` has no social login. `goose-recipe.yaml` is the Goose side.
 
 ## Install
 
@@ -27,6 +27,6 @@ goose run --recipe goose-recipe.yaml
 Manual copy: put `skills/social-post-repurpose` in `~/.agents/skills/` (Codex, Goose, Cursor) or `~/.claude/skills/` (Claude Code).
 
 ## Connectors
-This bundle uses no connectors.
+No social account is attached. You copy the posts over.
 
-License: MIT. Original writing by Drok AI.
+MIT applies here. Drok AI wrote what you are reading.

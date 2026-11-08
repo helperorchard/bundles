@@ -1,10 +1,10 @@
 # Follow-up Nudge
 
-Looks at your list of open conversations and drafts a short, useful follow-up for each one that has gone quiet. Drafts only.
+Quiet chats get a follow-up with a real point.
 
-Category: Sales. Suggested schedule: every Wednesday at 10:00.
+Midweek sales cleanup, Wednesday at 10:00.
 
-Files: `skills/follow-up-nudge/SKILL.md` (the skill), `memory.md` (facts to fill in and keep), `routines.yaml` (schedule), `mcp.json` (connectors), `goose-recipe.yaml`.
+`skills/follow-up-nudge/SKILL.md` is what to follow. Working days live in `memory.md`. Wednesday is noted in `routines.yaml`. No account is listed in `mcp.json`. Load `goose-recipe.yaml` for Goose.
 
 ## Install
 
@@ -29,6 +29,6 @@ goose schedule add --schedule-id follow-up-nudge --cron "0 0 10 * * 3" --recipe-
 Manual copy: put `skills/follow-up-nudge` in `~/.agents/skills/` (Codex, Goose, Cursor) or `~/.claude/skills/` (Claude Code).
 
 ## Connectors
-This bundle uses no connectors.
+Paste the quiet threads. Your mail stays unconnected.
 
-License: MIT. Original writing by Drok AI.
+You are free to copy this under MIT. Drok AI wrote it.

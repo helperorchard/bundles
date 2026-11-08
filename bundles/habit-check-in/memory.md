@@ -1,4 +1,6 @@
 # Memory
 
-- Habits: (up to 5, e.g. 'walk 20 minutes')
-- Streak log: (kept by the skill)
+- Habits, up to five: (example: walk 20 minutes)
+- Keep the streak log here after each evening
+- Ask today's questions in a single message
+- After three misses, offer a smaller version, kindly

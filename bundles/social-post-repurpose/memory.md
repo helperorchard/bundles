@@ -1,5 +1,6 @@
 # Memory
 
-- Channels: (e.g. X, LinkedIn, Instagram)
-- Uses hashtags: yes/no
-- Words or phrases to never use: (fill in)
+- Channels I actually post on: (example: X, LinkedIn, Instagram)
+- Hashtags: (yes or no)
+- Phrases I never want used: (fill in)
+- Hand me the posts. Publishing is mine

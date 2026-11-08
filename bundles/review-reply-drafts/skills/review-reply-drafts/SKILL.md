@@ -1,6 +1,6 @@
 ---
 name: review-reply-drafts
-description: "Drafts calm, specific replies to customer reviews you paste in, matched to star rating. Drafts only; you post them."
+description: "Reply drafts for reviews you paste and post yourself."
 license: MIT
 metadata:
   author: "Drok AI"
@@ -10,7 +10,7 @@ metadata:
 
 # Review Reply Drafts
 
-Use this when someone has new customer reviews (Google, Yelp, app store, Etsy) and wants replies ready to paste.
+Posting stays with you after you read each reply.
 
 ## Inputs
 - The review text, star rating, and reviewer first name for each review. Paste as many as you like.

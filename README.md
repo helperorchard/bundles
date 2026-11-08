@@ -1,8 +1,8 @@
 # HelperOrchard bundles
 
-Original, MIT-licensed helper bundles for people who are not developers. Each bundle is one job: a skill (agentskills.io `SKILL.md`), memory notes to fill in, a suggested schedule, connector notes, and a Goose recipe. They work in Hermes Agent, Goose, Claude Code, Cursor, Codex, OpenClaw and other tools that read `SKILL.md`.
+Everyday helpers for people who do not write software. Each folder does one job: a skill, notes you can fill in, a time it can run, connector notes, and a Goose recipe. Tools that know how to read a skill file can use them, including Hermes Agent, Goose, Claude Code, Cursor, Codex, and OpenClaw.
 
-Anything that could message people only writes drafts. Nothing here sends, posts, pays, or buys.
+If a job would message someone, it stops at a draft. Nothing here sends, posts, pays, or buys.
 
 ## Install
 
@@ -30,44 +30,44 @@ Each bundle's README has its own install, schedule, and memory lines.
 
 | Bundle | What it does |
 |---|---|
-| [weekly-topic-brief](bundles/weekly-topic-brief) | Weekly sourced roundup on topics or competitors, a link for every claim |
-| [review-reply-drafts](bundles/review-reply-drafts) | Drafts calm, specific replies to customer reviews you paste in, matched to star rating. Drafts only; you post them. |
-| [competitor-price-watch](bundles/competitor-price-watch) | Checks the public price pages of competitors you list and reports what changed since the last check. |
-| [content-calendar](bundles/content-calendar) | Plans the next two weeks of posts from your goals and past posts, with a date, channel, and hook for each. |
-| [newsletter-draft](bundles/newsletter-draft) | Turns your rough notes and links from the week into a short, readable newsletter draft with a subject line. |
-| [social-post-repurpose](bundles/social-post-repurpose) | Rewrites one piece you already made (blog post, video script, talk) into posts sized for each of your channels. |
+| [weekly-topic-brief](bundles/weekly-topic-brief) | Weekly sourced brief on the topics you care about. |
+| [review-reply-drafts](bundles/review-reply-drafts) | Calm review replies matched to the star rating. |
+| [competitor-price-watch](bundles/competitor-price-watch) | Price moves on the competitor pages you saved. |
+| [content-calendar](bundles/content-calendar) | Next two weeks of posts, with a hook each. |
+| [newsletter-draft](bundles/newsletter-draft) | Week's notes turned into a newsletter you can send. |
+| [social-post-repurpose](bundles/social-post-repurpose) | One finished piece rewritten for each channel. |
 
 ### Sales
 
 | Bundle | What it does |
 |---|---|
-| [first-touch-draft](bundles/first-touch-draft) | Two short outreach drafts from facts you supply; never sends |
-| [invoice-chaser-drafts](bundles/invoice-chaser-drafts) | Writes polite, firm payment reminder drafts for overdue invoices, stepped by how late each one is. Never sends. |
-| [lead-list-cleanup](bundles/lead-list-cleanup) | Tidies a messy lead list you paste in: merges duplicates, fixes name and company formats, and flags rows missing key fields. |
-| [follow-up-nudge](bundles/follow-up-nudge) | Looks at your list of open conversations and drafts a short, useful follow-up for each one that has gone quiet. Drafts only. |
-| [call-prep-sheet](bundles/call-prep-sheet) | Builds a one-page brief before a sales or partner call from the company's public site and the notes you have. |
-| [proposal-outline](bundles/proposal-outline) | Turns your call notes into a structured proposal outline with scope, timeline, price options, and open questions. |
+| [first-touch-draft](bundles/first-touch-draft) | Two short first notes from facts you supply. |
+| [invoice-chaser-drafts](bundles/invoice-chaser-drafts) | Payment reminders that firm up as invoices age. |
+| [lead-list-cleanup](bundles/lead-list-cleanup) | Tidy a pasted lead list and mark what is missing. |
+| [follow-up-nudge](bundles/follow-up-nudge) | Useful follow-ups for threads that went quiet. |
+| [call-prep-sheet](bundles/call-prep-sheet) | One-page brief before a sales or partner call. |
+| [proposal-outline](bundles/proposal-outline) | Call notes shaped into a proposal you can finish. |
 
 ### Operations
 
 | Bundle | What it does |
 |---|---|
-| [site-health-check](bundles/site-health-check) | Daily uptime and basic SEO check for your pages |
-| [meeting-actions](bundles/meeting-actions) | Notes or transcript to decisions, actions, owners, dates |
-| [inbox-triage-summary](bundles/inbox-triage-summary) | Sorts the emails you paste or export into reply-today, this-week, read-later, and ignore, with a one-line reason each. |
-| [weekly-expense-summary](bundles/weekly-expense-summary) | Groups a week of card or bank transactions you paste into categories and flags anything unusual or recurring. |
-| [supplier-reorder-check](bundles/supplier-reorder-check) | Compares your stock counts with reorder points and drafts the purchase list per supplier. Does not place orders. |
-| [meeting-agenda-builder](bundles/meeting-agenda-builder) | Builds a timed agenda from the topics people sent in, with an owner and the decision needed for each item. |
-| [sop-writer](bundles/sop-writer) | Turns a messy description of how you do a task into a numbered step-by-step procedure someone new could follow. |
+| [site-health-check](bundles/site-health-check) | Whether your pages are up and easy to find. |
+| [meeting-actions](bundles/meeting-actions) | Decisions and tasks taken from meeting notes. |
+| [inbox-triage-summary](bundles/inbox-triage-summary) | Today's emails sorted so replies come first. |
+| [weekly-expense-summary](bundles/weekly-expense-summary) | Week of card and bank charges, odd ones called out. |
+| [supplier-reorder-check](bundles/supplier-reorder-check) | Reorder list grouped by the supplier you buy from. |
+| [meeting-agenda-builder](bundles/meeting-agenda-builder) | Timed agenda from topics already in your inbox. |
+| [sop-writer](bundles/sop-writer) | Messy task notes turned into steps a newbie can follow. |
 
 ### Personal
 
 | Bundle | What it does |
 |---|---|
-| [job-post-watch](bundles/job-post-watch) | Checks the careers pages you list for new roles that match your title and location, and reports only the new ones. |
-| [trip-packing-list](bundles/trip-packing-list) | Makes a packing list for a specific trip from the dates, place, weather forecast, and what you will be doing. |
-| [bill-due-reminders](bundles/bill-due-reminders) | Lists the bills due in the next 10 days from your saved bill list, with amounts and which are on autopay. |
-| [weekly-meal-plan](bundles/weekly-meal-plan) | Plans dinners for the week around your diet, time limits, and what is already in the fridge, plus one shopping list. |
-| [habit-check-in](bundles/habit-check-in) | Runs a short end-of-day check-in on the habits you chose, keeps a running streak, and gives one small suggestion. |
+| [job-post-watch](bundles/job-post-watch) | New roles on careers pages you already follow. |
+| [trip-packing-list](bundles/trip-packing-list) | Bag checklist for this destination and its weather. |
+| [bill-due-reminders](bundles/bill-due-reminders) | Upcoming bills from the list you keep. |
+| [weekly-meal-plan](bundles/weekly-meal-plan) | Dinners for the week and one shopping list. |
+| [habit-check-in](bundles/habit-check-in) | An evening check-in for habits you chose. |
 
-Each bundle folder has: `skills/<slug>/SKILL.md`, `memory.md`, `routines.yaml`, `mcp.json`, `goose-recipe.yaml`, `README.md`.
+Inside each bundle you will find `skills/<slug>/SKILL.md`, plus `memory.md`, `routines.yaml`, `mcp.json`, `goose-recipe.yaml`, and `README.md`.

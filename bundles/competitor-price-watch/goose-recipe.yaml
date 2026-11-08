@@ -1,10 +1,10 @@
 version: 1.0.0
 title: Competitor Price Watch
-description: "Checks the public price pages of competitors you list and reports what changed since the last check."
+description: "Which competitor prices moved since the last check."
 instructions: |
   # Competitor Price Watch
 
-  Use this when someone wants to know if competitors changed their prices or plans.
+  See which plans moved without opening every tab.
 
   ## Inputs
   - A list of competitor pricing page URLs (from memory or the request).

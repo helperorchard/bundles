@@ -1,6 +1,6 @@
 ---
 name: meeting-actions
-description: Turns meeting notes or a transcript into a clear list of decisions, action items, owners, and due dates. Use after any meeting.
+description: "Owners and dates lifted only when the notes state them."
 license: MIT
 metadata:
   author: "Drok AI"
@@ -9,7 +9,7 @@ metadata:
 
 # Meeting Actions
 
-Use this when someone pastes meeting notes or a transcript and wants the follow-ups.
+Unclear lines stay quoted instead of being guessed.
 
 ## Steps
 1. Read the whole text once before writing anything.

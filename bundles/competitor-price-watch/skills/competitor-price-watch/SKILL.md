@@ -1,6 +1,6 @@
 ---
 name: competitor-price-watch
-description: "Checks the public price pages of competitors you list and reports what changed since the last check."
+description: "Which competitor prices moved since the last check."
 license: MIT
 compatibility: "Needs web access."
 metadata:
@@ -11,7 +11,7 @@ metadata:
 
 # Competitor Price Watch
 
-Use this when someone wants to know if competitors changed their prices or plans.
+See which plans moved without opening every tab.
 
 ## Inputs
 - A list of competitor pricing page URLs (from memory or the request).

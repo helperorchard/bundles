@@ -1,6 +1,6 @@
 ---
 name: trip-packing-list
-description: "Makes a packing list for a specific trip from the dates, place, weather forecast, and what you will be doing."
+description: "Packing list built around this trip's real plans."
 license: MIT
 compatibility: "Weather needs web access."
 metadata:
@@ -11,7 +11,7 @@ metadata:
 
 # Trip Packing List
 
-Use this a few days before a trip.
+Activities decide the extras, not a generic list.
 
 ## Inputs
 - Destination, dates, and how you travel (carry-on only, car, checked bag).

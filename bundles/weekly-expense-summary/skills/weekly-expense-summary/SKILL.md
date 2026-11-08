@@ -1,6 +1,6 @@
 ---
 name: weekly-expense-summary
-description: "Groups a week of card or bank transactions you paste into categories and flags anything unusual or recurring."
+description: "Where the pasted card and bank charges went."
 license: MIT
 metadata:
   author: "Drok AI"
@@ -10,7 +10,7 @@ metadata:
 
 # Weekly Expense Summary
 
-Use this when someone wants to see where the money went this week.
+Refunds count backward and big charges get a flag.
 
 ## Inputs
 - Transactions as pasted rows or CSV: date, description, amount, and currency.
