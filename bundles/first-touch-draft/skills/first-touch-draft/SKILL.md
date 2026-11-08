@@ -4,7 +4,7 @@ description: Drafts a short, specific first outreach message for one prospect fr
 license: MIT
 metadata:
   author: "Drok AI"
-  version: "1.0.0"
+  version: "1.0.1"
 ---
 
 # First Touch Draft
@@ -18,7 +18,7 @@ Use this when someone wants a first outreach message to a person or company.
 
 ## Steps
 1. Restate the offer and the prospect fact in one line each, so the user can correct them.
-2. Write a draft of 60 to 90 words:
+2. Write a draft of 60 to 90 words, in the sender's voice ("I") speaking to the prospect ("you"). Never describe the prospect in the third person or address the sender as "you":
    - open with the prospect fact
    - one sentence on the problem it suggests
    - one sentence on the offer

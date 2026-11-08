@@ -5,7 +5,7 @@ license: MIT
 compatibility: "Needs web access."
 metadata:
   author: "Drok AI"
-  version: "1.0.0"
+  version: "1.0.1"
 ---
 
 # Weekly Topic Brief
@@ -19,7 +19,7 @@ Use this when someone wants a weekly roundup of news on topics, products, or com
 1. For each topic, search the web for items from the last 7 days.
 2. Open each promising result and read it. Skip pages you cannot open.
 3. Keep at most 3 items per topic. Prefer primary sources (the company's own site, official filings, the original report).
-4. For each item write one plain sentence on what happened and why it matters, followed by the link and the date.
+4. For each item write one plain sentence on what happened and why it matters, followed by the full URL and the date, in the form `- What happened. Why it matters. — https://... (YYYY-MM-DD)`. A site or repo name is not a link.
 5. Add a "Nothing new" line for topics with no items this week.
 6. Finish with up to 3 bullets: what to watch next week.
 

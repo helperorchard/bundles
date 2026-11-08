@@ -6,9 +6,14 @@ Files: `skills/first-touch-draft/SKILL.md` (the skill), `memory.md` (facts to ke
 
 ## Install
 
+skills.sh CLI (Claude Code, Cursor, Codex, Goose, OpenClaw and more)
+```
+npx skills add helperorchard/bundles --skill first-touch-draft
+```
+
 Hermes Agent
 ```
-hermes skills install <owner>/<repo>/bundles/first-touch-draft/skills/first-touch-draft
+hermes skills install helperorchard/bundles/bundles/first-touch-draft/skills/first-touch-draft
 # or from a local copy:
 cp -r skills/first-touch-draft ~/.hermes/skills/
 hermes cron create "0 10 * * 1-5" "Ask me for today's prospects, then run first-touch-draft for each one." --skill first-touch-draft

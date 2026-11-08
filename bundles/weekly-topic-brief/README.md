@@ -6,9 +6,14 @@ Files: `skills/weekly-topic-brief/SKILL.md` (the skill), `memory.md` (facts to k
 
 ## Install
 
+skills.sh CLI (Claude Code, Cursor, Codex, Goose, OpenClaw and more)
+```
+npx skills add helperorchard/bundles --skill weekly-topic-brief
+```
+
 Hermes Agent
 ```
-hermes skills install <owner>/<repo>/bundles/weekly-topic-brief/skills/weekly-topic-brief
+hermes skills install helperorchard/bundles/bundles/weekly-topic-brief/skills/weekly-topic-brief
 # or from a local copy:
 cp -r skills/weekly-topic-brief ~/.hermes/skills/
 hermes cron create "0 9 * * 1" "Run weekly-topic-brief for the topics in memory." --skill weekly-topic-brief
