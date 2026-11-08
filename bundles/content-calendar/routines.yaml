@@ -1,0 +1,6 @@
+routines:
+  - name: Content Calendar
+    cron: "0 17 * * 5"
+    schedule_text: "every other Friday at 17:00 (set every Friday and skip alternate weeks if your tool lacks bi-weekly)"
+    skill: content-calendar
+    prompt: "Run content-calendar for the next two weeks using my goal and channels in memory."

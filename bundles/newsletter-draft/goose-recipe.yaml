@@ -1,0 +1,34 @@
+version: 1.0.0
+title: Newsletter Draft
+description: "Turns your rough notes and links from the week into a short, readable newsletter draft with a subject line."
+instructions: |
+  # Newsletter Draft
+
+  Use this when someone has bits and pieces from the week and wants a newsletter draft.
+
+  ## Inputs
+  - Notes, links, and updates in any order.
+  - Newsletter name and sign-off from memory.
+
+  ## Steps
+  1. Group the notes into at most 4 sections. Drop anything that does not fit; list what you dropped at the end.
+  2. For each link, open it and check the title matches what the note says. Mark any link you could not open.
+  3. Write a 2-sentence opening that says what this issue is about.
+  4. Write each section in 40 to 90 words, ending with the link if there is one.
+  5. Write 3 subject line options under 50 characters, and one preview line under 90 characters.
+  6. Add the sign-off from memory.
+
+  ## Rules
+  - Draft only. Never send, schedule, or load it into an email tool.
+  - Do not add facts that are not in the notes or the opened links.
+  - Plain words. No "In today's issue we dive into".
+
+  ## Done when
+  The draft, 3 subject lines, a preview line, and the dropped-items list are returned.
+
+  # Memory
+
+  - Newsletter name: (fill in)
+  - Sign-off: (e.g. 'See you next week, Ana')
+  - Typical length: about 400 words
+prompt: "Ask me for this week's notes and links, then run newsletter-draft."

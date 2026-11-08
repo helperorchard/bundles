@@ -1,0 +1,6 @@
+routines:
+  - name: Bill Due Reminders
+    cron: "0 9 * * 1,4"
+    schedule_text: "every Monday and Thursday at 09:00"
+    skill: bill-due-reminders
+    prompt: "Run bill-due-reminders from my bill list in memory."

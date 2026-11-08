@@ -1,0 +1,6 @@
+routines:
+  - name: Review Reply Drafts
+    cron: "0 9 * * 1"
+    schedule_text: "every Monday at 09:00"
+    skill: review-reply-drafts
+    prompt: "Remind me to paste this week's new reviews, then run review-reply-drafts on them."

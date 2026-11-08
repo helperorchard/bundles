@@ -1,0 +1,6 @@
+routines:
+  - name: Habit Check-in
+    cron: "0 21 * * *"
+    schedule_text: "every day at 21:00"
+    skill: habit-check-in
+    prompt: "Run habit-check-in for today."

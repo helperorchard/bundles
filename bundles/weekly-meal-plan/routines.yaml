@@ -1,0 +1,6 @@
+routines:
+  - name: Weekly Meal Plan
+    cron: "0 10 * * 6"
+    schedule_text: "every Saturday at 10:00"
+    skill: weekly-meal-plan
+    prompt: "Ask me what's in the fridge, then run weekly-meal-plan."

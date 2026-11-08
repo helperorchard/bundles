@@ -1,0 +1,6 @@
+routines:
+  - name: Weekly Expense Summary
+    cron: "0 18 * * 0"
+    schedule_text: "every Sunday at 18:00"
+    skill: weekly-expense-summary
+    prompt: "Ask me to paste this week's transactions, then run weekly-expense-summary."

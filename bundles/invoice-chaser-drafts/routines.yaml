@@ -1,0 +1,6 @@
+routines:
+  - name: Invoice Chaser Drafts
+    cron: "0 9 * * 2"
+    schedule_text: "every Tuesday at 09:00"
+    skill: invoice-chaser-drafts
+    prompt: "Ask me for the current unpaid invoice list, then run invoice-chaser-drafts."

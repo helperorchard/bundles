@@ -6,9 +6,14 @@ Files: `skills/site-health-check/SKILL.md` (the skill), `memory.md` (facts to ke
 
 ## Install
 
+skills.sh CLI (Claude Code, Cursor, Codex, Goose, OpenClaw and more)
+```
+npx skills add helperorchard/bundles --skill site-health-check
+```
+
 Hermes Agent
 ```
-hermes skills install <owner>/<repo>/bundles/site-health-check/skills/site-health-check
+hermes skills install helperorchard/bundles/bundles/site-health-check/skills/site-health-check
 # or from a local copy:
 cp -r skills/site-health-check ~/.hermes/skills/
 hermes cron create "0 8 * * *" "Run site-health-check on the sites in memory and send me the table." --skill site-health-check

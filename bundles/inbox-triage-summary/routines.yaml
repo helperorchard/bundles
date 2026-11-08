@@ -1,0 +1,6 @@
+routines:
+  - name: Inbox Triage Summary
+    cron: "0 8 * * 1-5"
+    schedule_text: "every weekday at 08:00"
+    skill: inbox-triage-summary
+    prompt: "Run inbox-triage-summary on my new email and give me the reply-today list first."

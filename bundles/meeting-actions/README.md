@@ -6,9 +6,14 @@ Files: `skills/meeting-actions/SKILL.md` (the skill), `memory.md` (facts to keep
 
 ## Install
 
+skills.sh CLI (Claude Code, Cursor, Codex, Goose, OpenClaw and more)
+```
+npx skills add helperorchard/bundles --skill meeting-actions
+```
+
 Hermes Agent
 ```
-hermes skills install <owner>/<repo>/bundles/meeting-actions/skills/meeting-actions
+hermes skills install helperorchard/bundles/bundles/meeting-actions/skills/meeting-actions
 # or from a local copy:
 cp -r skills/meeting-actions ~/.hermes/skills/
 hermes cron create "0 16 * * 5" "List any action items from this week's meeting-actions results that still say 'owner not set' or 'no date'." --skill meeting-actions

@@ -1,0 +1,6 @@
+routines:
+  - name: Meeting Agenda Builder
+    cron: "0 16 * * 0"
+    schedule_text: "every Sunday at 16:00 (before a Monday meeting)"
+    skill: meeting-agenda-builder
+    prompt: "Ask me for this week's topics, then run meeting-agenda-builder."

@@ -1,0 +1,6 @@
+routines:
+  - name: Competitor Price Watch
+    cron: "0 8 * * 1"
+    schedule_text: "every Monday at 08:00"
+    skill: competitor-price-watch
+    prompt: "Run competitor-price-watch on the pricing pages in memory and show me what changed."

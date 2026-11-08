@@ -1,0 +1,6 @@
+routines:
+  - name: Newsletter Draft
+    cron: "0 15 * * 4"
+    schedule_text: "every Thursday at 15:00"
+    skill: newsletter-draft
+    prompt: "Ask me for this week's notes and links, then run newsletter-draft."

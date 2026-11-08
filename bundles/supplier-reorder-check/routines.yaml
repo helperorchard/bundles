@@ -1,0 +1,6 @@
+routines:
+  - name: Supplier Reorder Check
+    cron: "0 16 * * 4"
+    schedule_text: "every Thursday at 16:00"
+    skill: supplier-reorder-check
+    prompt: "Ask me for today's stock counts, then run supplier-reorder-check."

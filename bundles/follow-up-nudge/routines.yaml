@@ -1,0 +1,6 @@
+routines:
+  - name: Follow-up Nudge
+    cron: "0 10 * * 3"
+    schedule_text: "every Wednesday at 10:00"
+    skill: follow-up-nudge
+    prompt: "Ask me for my open threads, then run follow-up-nudge."

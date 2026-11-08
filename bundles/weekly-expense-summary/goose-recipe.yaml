@@ -1,0 +1,33 @@
+version: 1.0.0
+title: Weekly Expense Summary
+description: "Groups a week of card or bank transactions you paste into categories and flags anything unusual or recurring."
+instructions: |
+  # Weekly Expense Summary
+
+  Use this when someone wants to see where the money went this week.
+
+  ## Inputs
+  - Transactions as pasted rows or CSV: date, description, amount, and currency.
+  - Category rules and a weekly budget from memory if saved.
+
+  ## Steps
+  1. Keep only the last 7 days unless told otherwise. Treat refunds as negative spend.
+  2. Put each transaction in a category: use memory rules first, then the description (e.g. "Uber" to Transport). If unsure, use "Check".
+  3. Total each category and the week. Compare with the weekly budget if one is saved.
+  4. Flag: any single charge over the alert amount in memory, any charge from the same merchant twice in a day, and anything that looks like a subscription (same merchant and amount as a past week the user mentions).
+  5. Return a category table, the total vs budget, then the flags list.
+
+  ## Rules
+  - Never connect to a bank or move money. Work only from what is pasted.
+  - Keep amounts exact and in the original currency. If there are several currencies, total them separately.
+  - Do not give investment or tax advice.
+
+  ## Done when
+  Category totals, the week total, and the flags are returned.
+
+  # Memory
+
+  - Weekly budget: (fill in)
+  - Alert on single charges over: (fill in)
+  - Category rules: (e.g. 'Coffee Lab = Eating out')
+prompt: "Ask me to paste this week's transactions, then run weekly-expense-summary."
