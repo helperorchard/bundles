@@ -1,10 +1,8 @@
 # Meeting Agenda Builder
 
-Builds a timed agenda from the topics people sent in, with an owner and the decision needed for each item.
+Fits everyone's topics into the minutes you actually have. Sunday at 16:00, ahead of a Monday meeting.
 
-Category: Operations. Suggested schedule: every Sunday at 16:00 (before a Monday meeting).
-
-Files: `skills/meeting-agenda-builder/SKILL.md` (the skill), `memory.md` (facts to fill in and keep), `routines.yaml` (schedule), `mcp.json` (connectors), `goose-recipe.yaml`.
+Usual length and regular people go in `memory.md`. Sunday 16:00 is `routines.yaml`. Agenda steps are `skills/meeting-agenda-builder/SKILL.md`. `goose-recipe.yaml` is there for Goose. `mcp.json` sends no invite.
 
 ## Install
 
@@ -29,6 +27,6 @@ goose schedule add --schedule-id meeting-agenda-builder --cron "0 0 16 * * 0" --
 Manual copy: put `skills/meeting-agenda-builder` in `~/.agents/skills/` (Codex, Goose, Cursor) or `~/.claude/skills/` (Claude Code).
 
 ## Connectors
-This bundle uses no connectors.
+Topics arrive from you, and the agenda is not mailed out.
 
 License: MIT. Original writing by Drok AI.

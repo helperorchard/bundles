@@ -1,10 +1,10 @@
 version: 1.0.0
 title: Social Post Repurpose
-description: "Rewrites one piece you already made (blog post, video script, talk) into posts sized for each of your channels."
+description: "Short posts drawn from a longer piece you supply."
 instructions: |
   # Social Post Repurpose
 
-  Use this when someone has one finished piece of content and wants posts for several channels from it.
+  Start from something you already published and split it out.
 
   ## Inputs
   - The source: pasted text, or a public URL to read.
@@ -30,7 +30,8 @@ instructions: |
 
   # Memory
 
-  - Channels: (e.g. X, LinkedIn, Instagram)
-  - Uses hashtags: yes/no
-  - Words or phrases to never use: (fill in)
+  - I post on: (for example X, LinkedIn, Instagram)
+  - Hashtags are: (yes or no)
+  - Leave these phrases out: (words that are not me)
+  - These posts sit until I hit publish.
 prompt: "Run social-post-repurpose on this piece."

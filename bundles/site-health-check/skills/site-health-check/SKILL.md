@@ -1,8 +1,8 @@
 ---
 name: site-health-check
-description: Checks a website is up and flags basic SEO problems like missing titles or broken links. Use for a daily site check.
+description: "Catches pages that are down or thin in search."
 license: MIT
-compatibility: "Needs web access and curl."
+compatibility: "Listed pages need to load when the check runs."
 metadata:
   author: "Drok AI"
   version: "1.0.0"
@@ -10,7 +10,7 @@ metadata:
 
 # Site Health Check
 
-Use this when someone wants to know if a site is up and if its pages have obvious search problems.
+Say which saved pages are down and which look thin.
 
 ## Inputs
 - One or more page URLs. If none are given, ask for them.

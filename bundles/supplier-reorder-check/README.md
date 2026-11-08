@@ -1,10 +1,8 @@
 # Supplier Reorder Check
 
-Compares your stock counts with reorder points and drafts the purchase list per supplier. Does not place orders.
+Items to reorder, grouped by the supplier you buy from. Thursday at 16:00 leaves time before Friday orders.
 
-Category: Operations. Suggested schedule: every Thursday at 16:00.
-
-Files: `skills/supplier-reorder-check/SKILL.md` (the skill), `memory.md` (facts to fill in and keep), `routines.yaml` (schedule), `mcp.json` (connectors), `goose-recipe.yaml`.
+Reorder points and suppliers live in `memory.md`. Thursday 16:00 is `routines.yaml`. Counting steps are `skills/supplier-reorder-check/SKILL.md`. `goose-recipe.yaml` stops at the list. `mcp.json` does not sign into a wholesaler.
 
 ## Install
 
@@ -29,6 +27,6 @@ goose schedule add --schedule-id supplier-reorder-check --cron "0 0 16 * * 4" --
 Manual copy: put `skills/supplier-reorder-check` in `~/.agents/skills/` (Codex, Goose, Cursor) or `~/.claude/skills/` (Claude Code).
 
 ## Connectors
-This bundle uses no connectors.
+Stock counts are typed by you, and no order is placed.
 
 License: MIT. Original writing by Drok AI.

@@ -1,6 +1,6 @@
 ---
 name: first-touch-draft
-description: Drafts a short, specific first outreach message for one prospect from facts you supply. Never sends anything.
+description: "Writes two short first messages and leaves them unsent."
 license: MIT
 metadata:
   author: "Drok AI"
@@ -9,7 +9,7 @@ metadata:
 
 # First Touch Draft
 
-Use this when someone wants a first outreach message to a person or company.
+Write two first notes from one real fact you supply.
 
 ## Inputs
 - Who the prospect is (name, role, company).

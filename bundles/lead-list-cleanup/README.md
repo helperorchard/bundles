@@ -1,10 +1,8 @@
 # Lead List Cleanup
 
-Tidies a messy lead list you paste in: merges duplicates, fixes name and company formats, and flags rows missing key fields.
+Cleans names and companies in a list you paste. Run it when a spreadsheet lands.
 
-Category: Sales. Run on demand; no schedule suggested.
-
-Files: `skills/lead-list-cleanup/SKILL.md` (the skill), `memory.md` (facts to fill in and keep), `routines.yaml` (schedule), `mcp.json` (connectors), `goose-recipe.yaml`.
+Column habits sit in `memory.md`. `routines.yaml` is empty on purpose. Cleanup steps are `skills/lead-list-cleanup/SKILL.md`. You can hand `goose-recipe.yaml` to Goose. `mcp.json` does not touch a contact book.
 
 ## Install
 
@@ -27,6 +25,6 @@ goose run --recipe goose-recipe.yaml
 Manual copy: put `skills/lead-list-cleanup` in `~/.agents/skills/` (Codex, Goose, Cursor) or `~/.claude/skills/` (Claude Code).
 
 ## Connectors
-This bundle uses no connectors.
+Whatever spreadsheet you paste is the entire input.
 
 License: MIT. Original writing by Drok AI.

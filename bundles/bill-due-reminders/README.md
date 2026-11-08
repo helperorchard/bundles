@@ -1,10 +1,8 @@
 # Bill Due Reminders
 
-Lists the bills due in the next 10 days from your saved bill list, with amounts and which are on autopay.
+Heads-up on bills due before they leave your account. Monday and Thursday at 9:00.
 
-Category: Personal. Suggested schedule: every Monday and Thursday at 09:00.
-
-Files: `skills/bill-due-reminders/SKILL.md` (the skill), `memory.md` (facts to fill in and keep), `routines.yaml` (schedule), `mcp.json` (connectors), `goose-recipe.yaml`.
+The bill list itself is `memory.md`. Monday and Thursday at 9:00 are `routines.yaml`. Reminder steps are `skills/bill-due-reminders/SKILL.md`. `goose-recipe.yaml` is the Goose reminder. `mcp.json` cannot pay a bill.
 
 ## Install
 
@@ -29,6 +27,6 @@ goose schedule add --schedule-id bill-due-reminders --cron "0 0 9 * * 1,4" --rec
 Manual copy: put `skills/bill-due-reminders` in `~/.agents/skills/` (Codex, Goose, Cursor) or `~/.claude/skills/` (Claude Code).
 
 ## Connectors
-This bundle uses no connectors.
+Amounts come from your list, and no payment is made.
 
 License: MIT. Original writing by Drok AI.

@@ -1,8 +1,8 @@
 ---
 name: trip-packing-list
-description: "Makes a packing list for a specific trip from the dates, place, weather forecast, and what you will be doing."
+description: "Clothes and gear for the trip you are about to take."
 license: MIT
-compatibility: "Weather needs web access."
+compatibility: "Looks up a public forecast for where you are going."
 metadata:
   author: "Drok AI"
   version: "1.0.0"
@@ -11,7 +11,7 @@ metadata:
 
 # Trip Packing List
 
-Use this a few days before a trip.
+Build the list a few days out, using the forecast.
 
 ## Inputs
 - Destination, dates, and how you travel (carry-on only, car, checked bag).

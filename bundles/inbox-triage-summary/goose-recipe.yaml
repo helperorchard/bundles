@@ -1,10 +1,10 @@
 version: 1.0.0
 title: Inbox Triage Summary
-description: "Sorts the emails you paste or export into reply-today, this-week, read-later, and ignore, with a one-line reason each."
+description: "Weekday sort of the mail you choose to hand over."
 instructions: |
   # Inbox Triage Summary
 
-  Use this when someone has a pile of unread email and wants to know what matters.
+  Work through a pile of mail and say what deserves a reply.
 
   ## Inputs
   - Emails as pasted text or an export: sender, subject, date, and body or first lines.
@@ -31,6 +31,8 @@ instructions: |
 
   # Memory
 
-  - Key people: (names or domains)
-  - Newsletters I actually read: (fill in)
+  - Mail from these people comes first: (names or domains)
+  - Newsletters I still open on purpose: (their names)
+  - Lead with whatever needs a reply today.
+  - The mailbox is read-only here. Replying, archiving, and unsubscribing stay with me.
 prompt: "Run inbox-triage-summary on my new email and give me the reply-today list first."

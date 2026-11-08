@@ -1,10 +1,10 @@
 version: 1.0.0
 title: Trip Packing List
-description: "Makes a packing list for a specific trip from the dates, place, weather forecast, and what you will be doing."
+description: "Bag list matched to this trip's weather and plans."
 instructions: |
   # Trip Packing List
 
-  Use this a few days before a trip.
+  Build the list a few days out, using the forecast.
 
   ## Inputs
   - Destination, dates, and how you travel (carry-on only, car, checked bag).
@@ -28,6 +28,8 @@ instructions: |
 
   # Memory
 
-  - Always pack: (e.g. medication, glasses)
-  - Home country plug type: (fill in)
+  - Always in my bag: (for example glasses and medication)
+  - Plug at home: (the shape we use)
+  - Match clothes to the forecast, and say where you read it.
+  - Booking, buying, and check-in stay with me.
 prompt: "Run trip-packing-list for my next trip."

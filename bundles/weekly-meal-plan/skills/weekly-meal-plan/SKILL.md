@@ -1,6 +1,6 @@
 ---
 name: weekly-meal-plan
-description: "Plans dinners for the week around your diet, time limits, and what is already in the fridge, plus one shopping list."
+description: "Sets seven dinners around diet rules and busy nights."
 license: MIT
 metadata:
   author: "Drok AI"
@@ -10,7 +10,7 @@ metadata:
 
 # Weekly Meal Plan
 
-Use this on the weekend to plan the week's dinners.
+Plan the week so cooking fits the time you have.
 
 ## Inputs
 - Number of people, diet needs, and dislikes (from memory).

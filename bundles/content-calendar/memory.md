@@ -1,5 +1,6 @@
 # Memory
 
-- Channels and frequency: (e.g. Instagram 3x/week, LinkedIn 2x/week)
-- Brand voice in three words: (fill in)
-- Topics to avoid: (fill in)
+- Where I post, and how often: (for example Instagram three times a week)
+- Sound like this: (three words a friend would use)
+- Subjects I will not touch: (topics I skip)
+- This is a plan I will post myself.

@@ -1,6 +1,6 @@
 ---
 name: habit-check-in
-description: "Runs a short end-of-day check-in on the habits you chose, keeps a running streak, and gives one small suggestion."
+description: "Asks about today's habits and offers one small next step."
 license: MIT
 metadata:
   author: "Drok AI"
@@ -10,7 +10,7 @@ metadata:
 
 # Habit Check-in
 
-Use this at the end of a day for a quick, honest habit check.
+Close the day with the facts and a single suggestion.
 
 ## Inputs
 - The habits from memory (up to 5), and the streak log from memory.

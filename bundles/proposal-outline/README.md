@@ -1,10 +1,8 @@
 # Proposal Outline
 
-Turns your call notes into a structured proposal outline with scope, timeline, price options, and open questions.
+Scope and timing laid out from the notes you took. Write it once the call is over.
 
-Category: Sales. Run on demand; no schedule suggested.
-
-Files: `skills/proposal-outline/SKILL.md` (the skill), `memory.md` (facts to fill in and keep), `routines.yaml` (schedule), `mcp.json` (connectors), `goose-recipe.yaml`.
+Rates and terms belong in `memory.md`. There is no clock in `routines.yaml`. Outline steps are `skills/proposal-outline/SKILL.md`. Goose reads `goose-recipe.yaml`. `mcp.json` does not file the proposal.
 
 ## Install
 
@@ -27,6 +25,6 @@ goose run --recipe goose-recipe.yaml
 Manual copy: put `skills/proposal-outline` in `~/.agents/skills/` (Codex, Goose, Cursor) or `~/.claude/skills/` (Claude Code).
 
 ## Connectors
-This bundle uses no connectors.
+The outline waits with you until you decide to send it.
 
 License: MIT. Original writing by Drok AI.

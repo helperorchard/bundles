@@ -1,10 +1,10 @@
 version: 1.0.0
 title: Meeting Agenda Builder
-description: "Builds a timed agenda from the topics people sent in, with an owner and the decision needed for each item."
+description: "Agenda with owners, ready before a single invite goes out."
 instructions: |
   # Meeting Agenda Builder
 
-  Use this before a team meeting when topics came in from several people.
+  Shape the topics people sent into a meeting that can finish.
 
   ## Inputs
   - Meeting length and attendees.
@@ -28,6 +28,8 @@ instructions: |
 
   # Memory
 
-  - Usual meeting length: (e.g. 30 minutes)
-  - Regular attendees: (fill in)
+  - Our meetings usually run: (for example 30 minutes)
+  - People usually in the room: (names)
+  - If a topic will not fit, park it and say why.
+  - Leave the agenda in the chat until I share it.
 prompt: "Ask me for this week's topics, then run meeting-agenda-builder."

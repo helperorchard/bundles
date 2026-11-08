@@ -1,6 +1,7 @@
 # Memory
 
-- Payment terms: (e.g. net 30)
-- How clients pay: (bank details or payment link - stored here, not in chat logs you share)
-- Late fee in contract: (yes with amount, or no)
-- Next step for 45+ days: (e.g. pause new work)
+- My payment terms: (for example due in 30 days)
+- How clients pay me: (keep the bank details or payment link in this note)
+- Late fee in the contract: (yes, with the amount, or no)
+- What I do after 45 days: (for example pause new work)
+- Hold every chaser until I send it.

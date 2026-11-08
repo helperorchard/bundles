@@ -1,6 +1,6 @@
 ---
 name: content-calendar
-description: "Plans the next two weeks of posts from your goals and past posts, with a date, channel, and hook for each."
+description: "Maps the next fourteen days of posts to one goal."
 license: MIT
 metadata:
   author: "Drok AI"
@@ -10,7 +10,7 @@ metadata:
 
 # Content Calendar
 
-Use this when someone wants a simple posting plan for the coming two weeks.
+Lay out the next two weeks before you write the posts.
 
 ## Inputs
 - Channels they post on and how often (from memory or ask).

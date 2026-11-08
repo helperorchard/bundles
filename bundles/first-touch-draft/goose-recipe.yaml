@@ -1,10 +1,10 @@
 version: 1.0.0
 title: First Touch Draft
-description: "Drafts a short, specific first outreach message for one prospect from facts you supply. Never sends anything."
+description: "Outreach wording for one person, waiting on your send."
 instructions: |
   # First Touch Draft
 
-  Use this when someone wants a first outreach message to a person or company.
+  Write two first notes from one real fact you supply.
 
   ## Inputs
   - Who the prospect is (name, role, company).
@@ -31,8 +31,8 @@ instructions: |
 
   # Memory
 
-  - offer: (describe what you sell in one line)
-  - Sign drafts with my first name.
-  - Keep drafts under 90 words.
-  - Never send messages; drafts only.
+  - What I sell, in one line: (write it here)
+  - Sign each draft with my first name.
+  - Keep every draft under 90 words.
+  - Never send anything without my yes.
 prompt: "Ask me for today's prospects, then run first-touch-draft for each one."

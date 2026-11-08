@@ -1,6 +1,6 @@
 ---
 name: weekly-expense-summary
-description: "Groups a week of card or bank transactions you paste into categories and flags anything unusual or recurring."
+description: "Buckets pasted transactions and points at odd charges."
 license: MIT
 metadata:
   author: "Drok AI"
@@ -10,7 +10,7 @@ metadata:
 
 # Weekly Expense Summary
 
-Use this when someone wants to see where the money went this week.
+See the odd charges first after you paste the week.
 
 ## Inputs
 - Transactions as pasted rows or CSV: date, description, amount, and currency.

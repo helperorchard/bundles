@@ -1,10 +1,8 @@
 # Review Reply Drafts
 
-Drafts calm, specific replies to customer reviews you paste in, matched to star rating. Drafts only; you post them.
+Answer each star rating in your own shop's voice. Start the week at 9:00 by clearing new reviews.
 
-Category: Marketing. Suggested schedule: every Monday at 09:00.
-
-Files: `skills/review-reply-drafts/SKILL.md` (the skill), `memory.md` (facts to fill in and keep), `routines.yaml` (schedule), `mcp.json` (connectors), `goose-recipe.yaml`.
+Shop name, signature, and refund rules go in `memory.md`. Monday 9:00 is `routines.yaml`. Reply steps are `skills/review-reply-drafts/SKILL.md`. The Goose copy is `goose-recipe.yaml`. `mcp.json` does not log into the review site.
 
 ## Install
 
@@ -29,6 +27,6 @@ goose schedule add --schedule-id review-reply-drafts --cron "0 0 9 * * 1" --reci
 Manual copy: put `skills/review-reply-drafts` in `~/.agents/skills/` (Codex, Goose, Cursor) or `~/.claude/skills/` (Claude Code).
 
 ## Connectors
-This bundle uses no connectors.
+Replies wait for you to paste them onto the review site.
 
 License: MIT. Original writing by Drok AI.

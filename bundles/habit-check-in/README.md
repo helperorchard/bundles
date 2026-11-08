@@ -1,10 +1,8 @@
 # Habit Check-in
 
-Runs a short end-of-day check-in on the habits you chose, keeps a running streak, and gives one small suggestion.
+Mark today's habits and keep the streak honest. Every evening at 21:00.
 
-Category: Personal. Suggested schedule: every day at 21:00.
-
-Files: `skills/habit-check-in/SKILL.md` (the skill), `memory.md` (facts to fill in and keep), `routines.yaml` (schedule), `mcp.json` (connectors), `goose-recipe.yaml`.
+The habits and the streak live in `memory.md`. 21:00 every day is `routines.yaml`. Check-in steps are `skills/habit-check-in/SKILL.md`. Evening Goose runs use `goose-recipe.yaml`. `mcp.json` needs no tracker app.
 
 ## Install
 
@@ -29,6 +27,6 @@ goose schedule add --schedule-id habit-check-in --cron "0 0 21 * * *" --recipe-s
 Manual copy: put `skills/habit-check-in` in `~/.agents/skills/` (Codex, Goose, Cursor) or `~/.claude/skills/` (Claude Code).
 
 ## Connectors
-This bundle uses no connectors.
+Answers are typed in the chat at the end of the day.
 
 License: MIT. Original writing by Drok AI.

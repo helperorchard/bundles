@@ -1,10 +1,10 @@
 version: 1.0.0
 title: Newsletter Draft
-description: "Turns your rough notes and links from the week into a short, readable newsletter draft with a subject line."
+description: "Thursday draft of your newsletter, still sitting unsent."
 instructions: |
   # Newsletter Draft
 
-  Use this when someone has bits and pieces from the week and wants a newsletter draft.
+  Collect this week's scraps and shape them into one letter.
 
   ## Inputs
   - Notes, links, and updates in any order.
@@ -28,7 +28,8 @@ instructions: |
 
   # Memory
 
-  - Newsletter name: (fill in)
-  - Sign-off: (e.g. 'See you next week, Ana')
-  - Typical length: about 400 words
+  - The letter is called: (its name)
+  - Sign off with: (for example "See you next week, Ana")
+  - Aim for about 400 words.
+  - Leave it here for me to copy into the email tool.
 prompt: "Ask me for this week's notes and links, then run newsletter-draft."

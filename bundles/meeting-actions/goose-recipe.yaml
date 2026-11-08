@@ -1,10 +1,10 @@
 version: 1.0.0
 title: Meeting Actions
-description: "Turns meeting notes or a transcript into a clear list of decisions, action items, owners, and due dates. Use after any meeting."
+description: "Who owes what after the meeting, written back in the chat."
 instructions: |
   # Meeting Actions
 
-  Use this when someone pastes meeting notes or a transcript and wants the follow-ups.
+  Read the notes once, then name every task someone owns.
 
   ## Steps
   1. Read the whole text once before writing anything.
@@ -26,8 +26,8 @@ instructions: |
 
   # Memory
 
-  - Use first names for owners.
-  - Dates are written as YYYY-MM-DD.
-  - Put the action items before decisions when there are more than five.
-  - Never message attendees; return results in chat only.
+  - Use first names when you name an owner.
+  - Write every date as year-month-day, like 2026-11-08.
+  - When there are more than five tasks, put the tasks first.
+  - Leave the result in this chat. Do not message the people who were there.
 prompt: "List any action items from this week's meeting-actions results that still say 'owner not set' or 'no date'."

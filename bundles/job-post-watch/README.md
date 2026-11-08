@@ -1,10 +1,8 @@
 # Job Post Watch
 
-Checks the careers pages you list for new roles that match your title and location, and reports only the new ones.
+Weekday look at job posts that fit your titles. Mornings at 7:00, before the workday starts.
 
-Category: Personal. Suggested schedule: every weekday at 07:00.
-
-Files: `skills/job-post-watch/SKILL.md` (the skill), `memory.md` (facts to fill in and keep), `routines.yaml` (schedule), `mcp.json` (connectors), `goose-recipe.yaml`.
+Careers links, titles, and places go in `memory.md`. Weekday 7:00 is `routines.yaml`. The watch itself is `skills/job-post-watch/SKILL.md`. Goose runs `goose-recipe.yaml`. `mcp.json` does not log into a job board.
 
 ## Install
 
@@ -29,6 +27,6 @@ goose schedule add --schedule-id job-post-watch --cron "0 0 7 * * 1-5" --recipe-
 Manual copy: put `skills/job-post-watch` in `~/.agents/skills/` (Codex, Goose, Cursor) or `~/.claude/skills/` (Claude Code).
 
 ## Connectors
-This bundle uses no connectors.
+Only the careers links you listed get opened.
 
 License: MIT. Original writing by Drok AI.

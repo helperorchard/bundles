@@ -1,5 +1,6 @@
 # Memory
 
-- My rate or price range: (fill in)
-- Standard payment terms: (e.g. 50% upfront)
-- Offer valid for: 14 days
+- The number I charge: (my rate or range)
+- Payment I usually ask for: (for example half up front)
+- Keep the offer open for 14 days.
+- The client sees this only when I send it, and the price must be mine.

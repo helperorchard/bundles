@@ -1,8 +1,8 @@
 # First Touch Draft
 
-Drafts a short, specific first outreach message for one prospect from facts you supply. Never sends anything.
+Your first hello stays a draft until you choose to send it. Weekdays at 10:00 only remind you to write one.
 
-Files: `skills/first-touch-draft/SKILL.md` (the skill), `memory.md` (facts to keep), `routines.yaml` (schedule), `mcp.json` (connectors), `goose-recipe.yaml`.
+Put your offer in `memory.md`. `routines.yaml` nudges you at 10:00 on weekdays. The writing rules are `skills/first-touch-draft/SKILL.md`. `goose-recipe.yaml` is for Goose, and `mcp.json` leaves mail untouched.
 
 ## Install
 
@@ -43,6 +43,6 @@ goose schedule add --schedule-id first-touch-draft --cron "0 0 10 * * 1-5" --rec
 (Goose cron includes a seconds field, hence the leading `0`.)
 
 ## Connectors
-This bundle uses no connectors.
+Finished drafts wait in the chat for you to send.
 
 License: MIT. Original writing by Drok AI.

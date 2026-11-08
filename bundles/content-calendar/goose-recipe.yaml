@@ -1,10 +1,10 @@
 version: 1.0.0
 title: Content Calendar
-description: "Plans the next two weeks of posts from your goals and past posts, with a date, channel, and hook for each."
+description: "Fortnight of posts aimed at the one goal you named."
 instructions: |
   # Content Calendar
 
-  Use this when someone wants a simple posting plan for the coming two weeks.
+  Lay out the next two weeks before you write the posts.
 
   ## Inputs
   - Channels they post on and how often (from memory or ask).
@@ -29,7 +29,8 @@ instructions: |
 
   # Memory
 
-  - Channels and frequency: (e.g. Instagram 3x/week, LinkedIn 2x/week)
-  - Brand voice in three words: (fill in)
-  - Topics to avoid: (fill in)
+  - Where I post, and how often: (for example Instagram three times a week)
+  - Sound like this: (three words a friend would use)
+  - Subjects I will not touch: (topics I skip)
+  - This is a plan I will post myself.
 prompt: "Run content-calendar for the next two weeks using my goal and channels in memory."
