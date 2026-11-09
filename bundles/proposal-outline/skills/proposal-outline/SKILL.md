@@ -1,6 +1,6 @@
 ---
 name: proposal-outline
-description: "Turns your call notes into a structured proposal outline with scope, timeline, price options, and open questions."
+description: "Proposal shape taken from the discovery call notes."
 license: MIT
 metadata:
   author: "Drok AI"
@@ -10,7 +10,7 @@ metadata:
 
 # Proposal Outline
 
-Use this after a discovery call when someone needs to write a proposal.
+Rates come from you, never from a guess.
 
 ## Inputs
 - Call notes (pasted), the client name, and the user's price range or rate from memory.

@@ -1,6 +1,6 @@
 ---
 name: social-post-repurpose
-description: "Rewrites one piece you already made (blog post, video script, talk) into posts sized for each of your channels."
+description: "Posts resized for each channel from one piece."
 license: MIT
 metadata:
   author: "Drok AI"
@@ -10,7 +10,7 @@ metadata:
 
 # Social Post Repurpose
 
-Use this when someone has one finished piece of content and wants posts for several channels from it.
+Strongest points first, then a version per channel.
 
 ## Inputs
 - The source: pasted text, or a public URL to read.

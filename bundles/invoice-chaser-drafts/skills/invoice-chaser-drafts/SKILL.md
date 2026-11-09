@@ -1,6 +1,6 @@
 ---
 name: invoice-chaser-drafts
-description: "Writes polite, firm payment reminder drafts for overdue invoices, stepped by how late each one is. Never sends."
+description: "Draft reminders for overdue invoices, tone by lateness."
 license: MIT
 metadata:
   author: "Drok AI"
@@ -10,7 +10,7 @@ metadata:
 
 # Invoice Chaser Drafts
 
-Use this when someone has unpaid invoices and wants reminder emails ready to send themselves.
+Late invoices leave as drafts, stepped by how late.
 
 ## Inputs
 - For each invoice: client name, contact name, invoice number, amount with currency, due date, and any earlier reminders sent.

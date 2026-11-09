@@ -1,10 +1,10 @@
 # Inbox Triage Summary
 
-Sorts the emails you paste or export into reply-today, this-week, read-later, and ignore, with a one-line reason each.
+Unread mail ranked by what actually needs you.
 
-Category: Operations. Suggested schedule: every weekday at 08:00.
+Weekday mornings at 08:00, while the pile is still small.
 
-Files: `skills/inbox-triage-summary/SKILL.md` (the skill), `memory.md` (facts to fill in and keep), `routines.yaml` (schedule), `mcp.json` (connectors), `goose-recipe.yaml`.
+Sorting rules are `skills/inbox-triage-summary/SKILL.md`. People who matter go in `memory.md`. The morning slot is `routines.yaml`. `mcp.json` does not ship a mailbox. The Goose file is `goose-recipe.yaml`.
 
 ## Install
 
@@ -29,6 +29,6 @@ goose schedule add --schedule-id inbox-triage-summary --cron "0 0 8 * * 1-5" --r
 Manual copy: put `skills/inbox-triage-summary` in `~/.agents/skills/` (Codex, Goose, Cursor) or `~/.claude/skills/` (Claude Code).
 
 ## Connectors
-Optional: a read-only email connector from your agent tool (for example Gmail). Not included here; paste emails if you have none.
+Paste the mail, or point your own tool at a read-only mailbox if it already has one. This folder does not include a mailbox.
 
-License: MIT. Original writing by Drok AI.
+Drok AI is the author. The license is MIT.

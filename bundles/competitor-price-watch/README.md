@@ -1,10 +1,10 @@
 # Competitor Price Watch
 
-Checks the public price pages of competitors you list and reports what changed since the last check.
+Saved pricing pages compared with what you stored.
 
-Category: Marketing. Suggested schedule: every Monday at 08:00.
+A Monday 08:00 pass over the pricing pages you saved.
 
-Files: `skills/competitor-price-watch/SKILL.md` (the skill), `memory.md` (facts to fill in and keep), `routines.yaml` (schedule), `mcp.json` (connectors), `goose-recipe.yaml`.
+Price checking lives in `skills/competitor-price-watch/SKILL.md`. Links and last prices go in `memory.md`. The Monday job is `routines.yaml`. `mcp.json` does not add a login. Open `goose-recipe.yaml` when you use Goose.
 
 ## Install
 
@@ -29,6 +29,6 @@ goose schedule add --schedule-id competitor-price-watch --cron "0 0 8 * * 1" --r
 Manual copy: put `skills/competitor-price-watch` in `~/.agents/skills/` (Codex, Goose, Cursor) or `~/.claude/skills/` (Claude Code).
 
 ## Connectors
-This bundle uses no connectors.
+No login helper. It opens the public pricing links you stored.
 
-License: MIT. Original writing by Drok AI.
+You can reuse this under MIT. Credit the writing to Drok AI.

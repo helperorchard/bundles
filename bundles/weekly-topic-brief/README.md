@@ -1,8 +1,10 @@
 # Weekly Topic Brief
 
-Writes a short weekly brief on chosen topics or competitors from recent public web sources, with a link for every claim.
+Public sources only, and a link sits on every claim.
 
-Files: `skills/weekly-topic-brief/SKILL.md` (the skill), `memory.md` (facts to keep), `routines.yaml` (schedule), `mcp.json` (connectors), `goose-recipe.yaml`.
+Monday at 09:00, covering the last seven days.
+
+Brief writing is `skills/weekly-topic-brief/SKILL.md`. Topic names belong in `memory.md`. Monday morning is `routines.yaml`. Optional fetch notes are in `mcp.json`. Goose uses `goose-recipe.yaml`.
 
 ## Install
 
@@ -45,4 +47,4 @@ goose schedule add --schedule-id weekly-topic-brief --cron "0 0 9 * * 1" --recip
 ## Connectors
 Optional connector: the official MCP `fetch` server (`uvx mcp-server-fetch`). See mcp.json. Hermes: add it under `mcp_servers:` in `~/.hermes/config.yaml`; OpenClaw: `openclaw mcp add fetch --command uvx --arg mcp-server-fetch`; Codex: `codex mcp add fetch -- uvx mcp-server-fetch`; Claude Code: `claude mcp add fetch -- uvx mcp-server-fetch`; Cursor: copy into `~/.cursor/mcp.json`.
 
-License: MIT. Original writing by Drok AI.
+Share and adapt this under MIT. Name Drok AI as the author.

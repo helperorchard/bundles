@@ -1,10 +1,10 @@
 # SOP Writer
 
-Turns a messy description of how you do a task into a numbered step-by-step procedure someone new could follow.
+Say how you do it, get a procedure back.
 
-Category: Operations. Run on demand; no schedule suggested.
+When a task lives in your head and someone else will need it. No fixed day.
 
-Files: `skills/sop-writer/SKILL.md` (the skill), `memory.md` (facts to fill in and keep), `routines.yaml` (schedule), `mcp.json` (connectors), `goose-recipe.yaml`.
+Procedure writing is `skills/sop-writer/SKILL.md`. Where files live, and who reads them, goes in `memory.md`. `routines.yaml` has no clock. `mcp.json` is unused. Goose can run `goose-recipe.yaml`.
 
 ## Install
 
@@ -27,6 +27,6 @@ goose run --recipe goose-recipe.yaml
 Manual copy: put `skills/sop-writer` in `~/.agents/skills/` (Codex, Goose, Cursor) or `~/.claude/skills/` (Claude Code).
 
 ## Connectors
-This bundle uses no connectors.
+Talk through the task. There is nothing to sign into.
 
-License: MIT. Original writing by Drok AI.
+The license is MIT, and Drok AI wrote the bundle.

@@ -1,6 +1,6 @@
 ---
 name: call-prep-sheet
-description: "Builds a one-page brief before a sales or partner call from the company's public site and the notes you have."
+description: "Context for a sales or partner call on one page."
 license: MIT
 compatibility: "Needs web access."
 metadata:
@@ -11,7 +11,7 @@ metadata:
 
 # Call Prep Sheet
 
-Use this before a call with a company or person someone has not spoken to much.
+Walk in knowing the company and why you called.
 
 ## Inputs
 - Company name and website. Person's name and role if known.

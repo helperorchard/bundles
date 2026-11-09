@@ -1,8 +1,10 @@
 # Site Health Check
 
-Checks a website is up and flags basic SEO problems like missing titles or broken links. Use for a daily site check.
+Morning pass on load time and basic page text.
 
-Files: `skills/site-health-check/SKILL.md` (the skill), `memory.md` (facts to keep), `routines.yaml` (schedule), `mcp.json` (connectors), `goose-recipe.yaml`.
+Every morning at 08:00 for the pages you listed.
+
+The morning check is `skills/site-health-check/SKILL.md`. Page addresses belong in `memory.md`. `routines.yaml` is 08:00 daily. `mcp.json` needs no account. Goose uses `goose-recipe.yaml`.
 
 ## Install
 
@@ -43,6 +45,6 @@ goose schedule add --schedule-id site-health-check --cron "0 0 8 * * *" --recipe
 (Goose cron includes a seconds field, hence the leading `0`.)
 
 ## Connectors
-This bundle uses no connectors.
+It opens the page addresses saved in your notes.
 
-License: MIT. Original writing by Drok AI.
+Use it under MIT. The author name is Drok AI.

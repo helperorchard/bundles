@@ -1,7 +1,7 @@
 # Memory
 
 - Careers pages: (one URL per line)
-- Target titles: (fill in)
-- Location: (city or remote)
+- Titles I want: (fill in)
+- Location, or remote: (fill in)
 - Deal-breakers: (fill in)
-- Already seen: (paste from last run)
+- Roles already seen: (paste the last list)

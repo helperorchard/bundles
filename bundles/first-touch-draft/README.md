@@ -1,8 +1,10 @@
 # First Touch Draft
 
-Drafts a short, specific first outreach message for one prospect from facts you supply. Never sends anything.
+Prospect note built from one true detail you know.
 
-Files: `skills/first-touch-draft/SKILL.md` (the skill), `memory.md` (facts to keep), `routines.yaml` (schedule), `mcp.json` (connectors), `goose-recipe.yaml`.
+Fits a sales morning. Weekdays at 10:00 are the standing nudge, and a single new name works too.
+
+Outreach steps sit in `skills/first-touch-draft/SKILL.md`. Your offer line is `memory.md`. A weekday prompt sits in `routines.yaml`. `mcp.json` connects nothing. `goose-recipe.yaml` is the Goose copy.
 
 ## Install
 
@@ -43,6 +45,6 @@ goose schedule add --schedule-id first-touch-draft --cron "0 0 10 * * 1-5" --rec
 (Goose cron includes a seconds field, hence the leading `0`.)
 
 ## Connectors
-This bundle uses no connectors.
+No mailbox hookup. The note stays on screen until you send it.
 
-License: MIT. Original writing by Drok AI.
+Please leave the Drok AI credit in place. The license is MIT.

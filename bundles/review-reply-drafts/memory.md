@@ -1,6 +1,6 @@
 # Memory
 
-- Business name: (fill in)
-- Replies signed as: (e.g. Maria, owner)
-- Contact route for unhappy customers: (email or phone)
-- Refund or make-good policy: (fill in, or 'none - do not offer')
+- The business is called: (fill in)
+- Sign the replies as: (example: Maria, owner)
+- For an unhappy guest, offer this contact: (email or phone)
+- Refunds or freebies: (the rule, or "do not offer any")

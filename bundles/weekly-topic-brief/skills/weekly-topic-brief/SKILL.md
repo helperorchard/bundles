@@ -1,6 +1,6 @@
 ---
 name: weekly-topic-brief
-description: Writes a short weekly brief on chosen topics or competitors from recent public web sources, with a link for every claim.
+description: "Fresh public items on your topics, each one linked."
 license: MIT
 compatibility: "Needs web access."
 metadata:
@@ -10,7 +10,7 @@ metadata:
 
 # Weekly Topic Brief
 
-Use this when someone wants a weekly roundup of news on topics, products, or competitors they name.
+If the week was quiet, say so instead of padding.
 
 ## Inputs
 - A list of topics or company names. If none are in memory or the request, ask.

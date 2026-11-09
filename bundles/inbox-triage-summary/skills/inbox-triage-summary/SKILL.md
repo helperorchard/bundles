@@ -1,6 +1,6 @@
 ---
 name: inbox-triage-summary
-description: "Sorts the emails you paste or export into reply-today, this-week, read-later, and ignore, with a one-line reason each."
+description: "Mail you paste, with today's replies pulled forward."
 license: MIT
 compatibility: "Works with pasted email, or an email connector if your tool has one."
 metadata:
@@ -11,7 +11,7 @@ metadata:
 
 # Inbox Triage Summary
 
-Use this when someone has a pile of unread email and wants to know what matters.
+Scam-looking notes stay at the top, untouched.
 
 ## Inputs
 - Emails as pasted text or an export: sender, subject, date, and body or first lines.

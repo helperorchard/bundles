@@ -1,6 +1,6 @@
 ---
 name: bill-due-reminders
-description: "Lists the bills due in the next 10 days from your saved bill list, with amounts and which are on autopay."
+description: "Bills due soon, with amounts and autopay marked."
 license: MIT
 metadata:
   author: "Drok AI"
@@ -10,7 +10,7 @@ metadata:
 
 # Bill Due Reminders
 
-Use this so no bill slips by.
+Autopay and manual bills due soon sit together.
 
 ## Inputs
 - The bill list from memory: name, usual amount, due day of month, autopay yes/no.

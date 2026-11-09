@@ -1,6 +1,6 @@
 ---
 name: sop-writer
-description: "Turns a messy description of how you do a task into a numbered step-by-step procedure someone new could follow."
+description: "Numbered steps a new teammate can follow next shift."
 license: MIT
 metadata:
   author: "Drok AI"
@@ -10,7 +10,7 @@ metadata:
 
 # SOP Writer
 
-Use this when someone wants to hand a repeating task to a new hire, a VA, or their future self.
+Gaps in the notes come back as questions for you.
 
 ## Inputs
 - A rough description: a voice-note transcript, chat messages, or bullet points.

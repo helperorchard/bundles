@@ -1,6 +1,6 @@
 # Memory
 
-- offer: (describe what you sell in one line)
-- Sign drafts with my first name.
-- Keep drafts under 90 words.
-- Never send messages; drafts only.
+- What I sell, one line: (fill in)
+- Sign off with my first name
+- Stay under ninety words
+- Never sends anything without your yes

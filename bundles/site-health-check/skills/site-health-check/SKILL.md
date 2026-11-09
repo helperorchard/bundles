@@ -1,6 +1,6 @@
 ---
 name: site-health-check
-description: Checks a website is up and flags basic SEO problems like missing titles or broken links. Use for a daily site check.
+description: "Daily check for down pages and thin titles."
 license: MIT
 compatibility: "Needs web access and curl."
 metadata:
@@ -10,7 +10,7 @@ metadata:
 
 # Site Health Check
 
-Use this when someone wants to know if a site is up and if its pages have obvious search problems.
+Down pages are listed before the smaller issues.
 
 ## Inputs
 - One or more page URLs. If none are given, ask for them.

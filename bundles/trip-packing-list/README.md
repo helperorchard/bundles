@@ -1,10 +1,10 @@
 # Trip Packing List
 
-Makes a packing list for a specific trip from the dates, place, weather forecast, and what you will be doing.
+Clothes and gear for the trip you actually booked.
 
-Category: Personal. Run on demand; no schedule suggested.
+A few days before you leave, once the dates are firm. No repeating schedule.
 
-Files: `skills/trip-packing-list/SKILL.md` (the skill), `memory.md` (facts to fill in and keep), `routines.yaml` (schedule), `mcp.json` (connectors), `goose-recipe.yaml`.
+Packing judgment is `skills/trip-packing-list/SKILL.md`. Must-haves live in `memory.md`. `routines.yaml` does not repeat. Weather may use the web; `mcp.json` still has no booking account. Goose: `goose-recipe.yaml`.
 
 ## Install
 
@@ -27,6 +27,6 @@ goose run --recipe goose-recipe.yaml
 Manual copy: put `skills/trip-packing-list` in `~/.agents/skills/` (Codex, Goose, Cursor) or `~/.claude/skills/` (Claude Code).
 
 ## Connectors
-This bundle uses no connectors.
+Nothing here books travel. Weather can use the open web.
 
-License: MIT. Original writing by Drok AI.
+This is Drok AI's writing, shared under MIT.

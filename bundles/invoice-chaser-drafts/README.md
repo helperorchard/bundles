@@ -1,10 +1,10 @@
 # Invoice Chaser Drafts
 
-Writes polite, firm payment reminder drafts for overdue invoices, stepped by how late each one is. Never sends.
+Polite chase notes you send only when ready.
 
-Category: Sales. Suggested schedule: every Tuesday at 09:00.
+Tuesday at 09:00, with the unpaid list in front of you.
 
-Files: `skills/invoice-chaser-drafts/SKILL.md` (the skill), `memory.md` (facts to fill in and keep), `routines.yaml` (schedule), `mcp.json` (connectors), `goose-recipe.yaml`.
+Reminder writing is `skills/invoice-chaser-drafts/SKILL.md`. Terms and payment details belong in `memory.md`. Tuesday is in `routines.yaml`. `mcp.json` has no mail account. Goose uses `goose-recipe.yaml`.
 
 ## Install
 
@@ -29,6 +29,6 @@ goose schedule add --schedule-id invoice-chaser-drafts --cron "0 0 9 * * 2" --re
 Manual copy: put `skills/invoice-chaser-drafts` in `~/.agents/skills/` (Codex, Goose, Cursor) or `~/.claude/skills/` (Claude Code).
 
 ## Connectors
-This bundle uses no connectors.
+No email connection. Copy the reminder into your own mail.
 
-License: MIT. Original writing by Drok AI.
+Take it under MIT, with credit to Drok AI for the words.

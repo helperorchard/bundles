@@ -1,5 +1,6 @@
 # Memory
 
 - Newsletter name: (fill in)
-- Sign-off: (e.g. 'See you next week, Ana')
-- Typical length: about 400 words
+- Sign-off I like: (example: See you next week, Ana)
+- About 400 words feels right
+- Leave it as a draft until I send the issue
