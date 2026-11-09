@@ -1,6 +1,6 @@
 ---
 name: newsletter-draft
-description: "Turns your rough notes and links from the week into a short, readable newsletter draft with a subject line."
+description: "Shapes rough weekly notes into a letter with subjects."
 license: MIT
 metadata:
   author: "Drok AI"
@@ -10,7 +10,7 @@ metadata:
 
 # Newsletter Draft
 
-Use this when someone has bits and pieces from the week and wants a newsletter draft.
+Collect this week's scraps and shape them into one letter.
 
 ## Inputs
 - Notes, links, and updates in any order.

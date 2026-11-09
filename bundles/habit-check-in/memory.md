@@ -1,4 +1,6 @@
 # Memory
 
-- Habits: (up to 5, e.g. 'walk 20 minutes')
-- Streak log: (kept by the skill)
+- Habits on the list, five at most: (for example a 20-minute walk)
+- Streak so far: (bring this forward after each evening)
+- One small next step is enough. Skip the guilt trip.
+- Pain or illness means tell me to ask a professional.

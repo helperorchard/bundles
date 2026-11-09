@@ -1,8 +1,8 @@
 ---
 name: weekly-topic-brief
-description: Writes a short weekly brief on chosen topics or competitors from recent public web sources, with a link for every claim.
+description: "Fresh public news on your topics, each point linked."
 license: MIT
-compatibility: "Needs web access."
+compatibility: "Recent public pages on your topics have to be readable."
 metadata:
   author: "Drok AI"
   version: "1.0.2"
@@ -10,7 +10,7 @@ metadata:
 
 # Weekly Topic Brief
 
-Use this when someone wants a weekly roundup of news on topics, products, or competitors they name.
+Gather this week's public news and keep every point sourced.
 
 ## Inputs
 - A list of topics or company names. If none are in memory or the request, ask.

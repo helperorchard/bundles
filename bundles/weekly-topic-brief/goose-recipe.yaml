@@ -1,10 +1,10 @@
 version: 1.0.0
 title: Weekly Topic Brief
-description: "Writes a short weekly brief on chosen topics or competitors from recent public web sources, with a link for every claim."
+description: "Your Monday scan of recent news you actually asked about."
 instructions: |
   # Weekly Topic Brief
 
-  Use this when someone wants a weekly roundup of news on topics, products, or competitors they name.
+  Gather this week's public news and keep every point sourced.
 
   ## Inputs
   - A list of topics or company names. If none are in memory or the request, ask.
@@ -28,8 +28,8 @@ instructions: |
 
   # Memory
 
-  - topics: (add topics or competitor names here)
-  - Keep the brief under 400 words.
-  - Prefer primary sources over news rewrites.
-  - Send the brief on Monday mornings.
+  - Topics and competitors to follow: (add them here)
+  - Hold the brief under 400 words.
+  - Prefer the original source over a news rewrite.
+  - I want this waiting on Monday morning.
 prompt: "Run weekly-topic-brief for the topics in memory."

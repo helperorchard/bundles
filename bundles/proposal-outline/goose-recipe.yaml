@@ -1,10 +1,10 @@
 version: 1.0.0
 title: Proposal Outline
-description: "Turns your call notes into a structured proposal outline with scope, timeline, price options, and open questions."
+description: "Skeleton proposal, with the price still left to you."
 instructions: |
   # Proposal Outline
 
-  Use this after a discovery call when someone needs to write a proposal.
+  After the call, shape the notes before you write the full pitch.
 
   ## Inputs
   - Call notes (pasted), the client name, and the user's price range or rate from memory.
@@ -30,7 +30,8 @@ instructions: |
 
   # Memory
 
-  - My rate or price range: (fill in)
-  - Standard payment terms: (e.g. 50% upfront)
-  - Offer valid for: 14 days
+  - The number I charge: (my rate or range)
+  - Payment I usually ask for: (for example half up front)
+  - Keep the offer open for 14 days.
+  - The client sees this only when I send it, and the price must be mine.
 prompt: "Run proposal-outline on these call notes."

@@ -1,10 +1,10 @@
 version: 1.0.0
 title: Follow-up Nudge
-description: "Looks at your list of open conversations and drafts a short, useful follow-up for each one that has gone quiet. Drafts only."
+description: "Wednesday notes for people who have not answered yet."
 instructions: |
   # Follow-up Nudge
 
-  Use this when someone has prospects or partners who have not replied and wants follow-ups that are not just "bumping this".
+  Bring quiet threads back without a bare bump.
 
   ## Inputs
   - For each open thread: person, company, what you last sent and when, and what they last said if anything.
@@ -26,6 +26,8 @@ instructions: |
 
   # Memory
 
-  - Working days: Mon-Fri
-  - Maximum follow-ups before closing the loop: 3
+  - I work Monday to Friday.
+  - After three nudges, stop that thread.
+  - Skip guilt, and skip the words "just bumping this".
+  - Sending stays with me.
 prompt: "Ask me for my open threads, then run follow-up-nudge."

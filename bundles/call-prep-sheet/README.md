@@ -1,10 +1,8 @@
 # Call Prep Sheet
 
-Builds a one-page brief before a sales or partner call from the company's public site and the notes you have.
+Skim this page in the five minutes before you dial. Open it before the conversation, whenever that is.
 
-Category: Sales. Run on demand; no schedule suggested.
-
-Files: `skills/call-prep-sheet/SKILL.md` (the skill), `memory.md` (facts to fill in and keep), `routines.yaml` (schedule), `mcp.json` (connectors), `goose-recipe.yaml`.
+Your offer and the usual objections go in `memory.md`. `routines.yaml` has no standing time. The one-page steps are `skills/call-prep-sheet/SKILL.md`. Goose takes `goose-recipe.yaml`. `mcp.json` adds no contact book.
 
 ## Install
 
@@ -27,6 +25,6 @@ goose run --recipe goose-recipe.yaml
 Manual copy: put `skills/call-prep-sheet` in `~/.agents/skills/` (Codex, Goose, Cursor) or `~/.claude/skills/` (Claude Code).
 
 ## Connectors
-This bundle uses no connectors.
+Facts come from the company's public site and your notes.
 
 License: MIT. Original writing by Drok AI.

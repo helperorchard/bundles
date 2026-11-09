@@ -1,10 +1,10 @@
 version: 1.0.0
 title: Call Prep Sheet
-description: "Builds a one-page brief before a sales or partner call from the company's public site and the notes you have."
+description: "Single sheet so you are not walking into the call cold."
 instructions: |
   # Call Prep Sheet
 
-  Use this before a call with a company or person someone has not spoken to much.
+  Open their site and fold in your notes before you dial.
 
   ## Inputs
   - Company name and website. Person's name and role if known.
@@ -28,6 +28,8 @@ instructions: |
 
   # Memory
 
-  - What I sell in one line: (fill in)
-  - Common objections I hear: (fill in)
+  - The offer I walk in with: (one line)
+  - Pushback I hear most weeks: (the objections that keep coming up)
+  - Stick to their public site and notes I actually gave you.
+  - Do not guess their revenue, and do not contact them.
 prompt: "Run call-prep-sheet for my next call."

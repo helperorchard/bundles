@@ -1,6 +1,6 @@
 ---
 name: lead-list-cleanup
-description: "Tidies a messy lead list you paste in: merges duplicates, fixes name and company formats, and flags rows missing key fields."
+description: "Straightens a messy contact list without adding people."
 license: MIT
 metadata:
   author: "Drok AI"
@@ -10,7 +10,7 @@ metadata:
 
 # Lead List Cleanup
 
-Use this when someone has a lead list from a spreadsheet, event, or form export that is messy.
+Hand in the spreadsheet and take back one clean list.
 
 ## Inputs
 - The list as pasted rows or CSV text. Columns can be in any order.

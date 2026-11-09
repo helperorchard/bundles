@@ -1,10 +1,10 @@
 version: 1.0.0
 title: Lead List Cleanup
-description: "Tidies a messy lead list you paste in: merges duplicates, fixes name and company formats, and flags rows missing key fields."
+description: "Duplicate names folded together, and nobody gets emailed."
 instructions: |
   # Lead List Cleanup
 
-  Use this when someone has a lead list from a spreadsheet, event, or form export that is messy.
+  Hand in the spreadsheet and take back one clean list.
 
   ## Inputs
   - The list as pasted rows or CSV text. Columns can be in any order.
@@ -26,6 +26,8 @@ instructions: |
 
   # Memory
 
-  - Business leads only: yes/no
-  - Columns I always want: name, email, company, role, source
+  - Only keep business leads: (yes or no)
+  - Columns I always want kept: name, email, company, role, and source.
+  - If a field is missing, mark the row. Do not invent it.
+  - Nobody on the list gets an email from this.
 prompt: "Run lead-list-cleanup on this list."

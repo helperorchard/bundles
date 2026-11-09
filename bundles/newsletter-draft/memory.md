@@ -1,5 +1,6 @@
 # Memory
 
-- Newsletter name: (fill in)
-- Sign-off: (e.g. 'See you next week, Ana')
-- Typical length: about 400 words
+- The letter is called: (its name)
+- Sign off with: (for example "See you next week, Ana")
+- Aim for about 400 words.
+- Leave it here for me to copy into the email tool.

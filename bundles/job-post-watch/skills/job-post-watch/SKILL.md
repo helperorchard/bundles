@@ -1,8 +1,8 @@
 ---
 name: job-post-watch
-description: "Checks the careers pages you list for new roles that match your title and location, and reports only the new ones."
+description: "Watches saved careers pages and reports only new fits."
 license: MIT
-compatibility: "Needs web access."
+compatibility: "Careers pages on your list have to open in a browser."
 metadata:
   author: "Drok AI"
   version: "1.0.0"
@@ -11,7 +11,7 @@ metadata:
 
 # Job Post Watch
 
-Use this when someone is job hunting and wants to know about new openings at companies they like.
+Check those careers pages and skip roles you already saw.
 
 ## Inputs
 - Careers page URLs (from memory).

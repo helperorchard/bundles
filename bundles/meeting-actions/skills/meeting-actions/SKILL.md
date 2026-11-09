@@ -1,6 +1,6 @@
 ---
 name: meeting-actions
-description: Turns meeting notes or a transcript into a clear list of decisions, action items, owners, and due dates. Use after any meeting.
+description: "Names the tasks a meeting actually left behind."
 license: MIT
 metadata:
   author: "Drok AI"
@@ -9,7 +9,7 @@ metadata:
 
 # Meeting Actions
 
-Use this when someone pastes meeting notes or a transcript and wants the follow-ups.
+Read the notes once, then name every task someone owns.
 
 ## Steps
 1. Read the whole text once before writing anything.

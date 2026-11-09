@@ -1,10 +1,10 @@
 version: 1.0.0
 title: Review Reply Drafts
-description: "Drafts calm, specific replies to customer reviews you paste in, matched to star rating. Drafts only; you post them."
+description: "Polite review answers waiting for you to paste them."
 instructions: |
   # Review Reply Drafts
 
-  Use this when someone has new customer reviews (Google, Yelp, app store, Etsy) and wants replies ready to paste.
+  Paste new reviews and get a careful reply for each one.
 
   ## Inputs
   - The review text, star rating, and reviewer first name for each review. Paste as many as you like.
@@ -30,8 +30,9 @@ instructions: |
 
   # Memory
 
-  - Business name: (fill in)
-  - Replies signed as: (e.g. Maria, owner)
-  - Contact route for unhappy customers: (email or phone)
-  - Refund or make-good policy: (fill in, or 'none - do not offer')
+  - Customers know the shop as: (the business name)
+  - Sign replies as: (for example Maria, the owner)
+  - Unhappy guests should be pointed to: (email or phone)
+  - Make-goods I really offer: (or none)
+  - Posting the reply is my job.
 prompt: "Remind me to paste this week's new reviews, then run review-reply-drafts on them."

@@ -1,8 +1,8 @@
 # Weekly Topic Brief
 
-Writes a short weekly brief on chosen topics or competitors from recent public web sources, with a link for every claim.
+Monday's short note on the topics you asked to follow. Monday at 9:00 is already the chosen time.
 
-Files: `skills/weekly-topic-brief/SKILL.md` (the skill), `memory.md` (facts to keep), `routines.yaml` (schedule), `mcp.json` (connectors), `goose-recipe.yaml`.
+The topics live in `memory.md`, Monday 9:00 lives in `routines.yaml`, and the steps live in `skills/weekly-topic-brief/SKILL.md`. `mcp.json` can name a page fetcher. Goose runs `goose-recipe.yaml`.
 
 ## Install
 

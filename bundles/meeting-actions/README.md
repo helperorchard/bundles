@@ -1,8 +1,8 @@
 # Meeting Actions
 
-Turns meeting notes or a transcript into a clear list of decisions, action items, owners, and due dates. Use after any meeting.
+The follow-ups a meeting actually left on the table. Friday at 16:00 catches blanks that are still open.
 
-Files: `skills/meeting-actions/SKILL.md` (the skill), `memory.md` (facts to keep), `routines.yaml` (schedule), `mcp.json` (connectors), `goose-recipe.yaml`.
+How you like names and dates is `memory.md`. `routines.yaml` remembers Friday at 16:00. Read `skills/meeting-actions/SKILL.md` for the method, `goose-recipe.yaml` if you use Goose, and `mcp.json` for the note that your calendar is not hooked up.
 
 ## Install
 
@@ -43,6 +43,6 @@ goose schedule add --schedule-id meeting-actions --cron "0 0 16 * * 5" --recipe-
 (Goose cron includes a seconds field, hence the leading `0`.)
 
 ## Connectors
-This bundle uses no connectors.
+Notes are pasted, so the calendar is left alone.
 
 License: MIT. Original writing by Drok AI.

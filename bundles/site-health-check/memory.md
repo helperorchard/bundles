@@ -1,7 +1,6 @@
 # Memory
 
-- Check the URLs listed under 'sites' below every morning.
-- sites: (add your URLs here, one per line)
-- Report DOWN pages first, then SEO issues.
-- Ten seconds is the slow-page limit.
-- Never log in or submit forms on the checked sites.
+- Pages I want checked each morning: (one URL per line)
+- Tell me about a down page before the smaller problems.
+- Ten seconds is as slow as a page should be.
+- Just look. Never log in or press a button on these sites.

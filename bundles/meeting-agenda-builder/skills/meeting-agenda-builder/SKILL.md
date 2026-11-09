@@ -1,6 +1,6 @@
 ---
 name: meeting-agenda-builder
-description: "Builds a timed agenda from the topics people sent in, with an owner and the decision needed for each item."
+description: "Times each topic and names the decision it needs."
 license: MIT
 metadata:
   author: "Drok AI"
@@ -10,7 +10,7 @@ metadata:
 
 # Meeting Agenda Builder
 
-Use this before a team meeting when topics came in from several people.
+Shape the topics people sent into a meeting that can finish.
 
 ## Inputs
 - Meeting length and attendees.

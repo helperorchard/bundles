@@ -1,4 +1,6 @@
 # Memory
 
-- Working days: Mon-Fri
-- Maximum follow-ups before closing the loop: 3
+- I work Monday to Friday.
+- After three nudges, stop that thread.
+- Skip guilt, and skip the words "just bumping this".
+- Sending stays with me.

@@ -1,10 +1,10 @@
 version: 1.0.0
 title: Supplier Reorder Check
-description: "Compares your stock counts with reorder points and drafts the purchase list per supplier. Does not place orders."
+description: "Purchase list for Thursday that stops short of ordering."
 instructions: |
   # Supplier Reorder Check
 
-  Use this for a small shop, kitchen, or studio that counts stock by hand.
+  Count the shelf, then see who you would reorder from.
 
   ## Inputs
   - Current counts: item and quantity on hand.
@@ -26,6 +26,8 @@ instructions: |
 
   # Memory
 
-  - Items: name | reorder point | order quantity | supplier
-  - Suppliers: name | how I order (email, phone, site)
+  - For each item I stock, note the reorder point, the amount I order, and who supplies it.
+  - I order from suppliers by: (email, phone, or their site)
+  - Leave my units as I wrote them.
+  - I place the orders. This only writes the list.
 prompt: "Ask me for today's stock counts, then run supplier-reorder-check."

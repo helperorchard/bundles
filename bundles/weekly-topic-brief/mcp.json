@@ -5,7 +5,7 @@
       "args": [
         "mcp-server-fetch"
       ],
-      "note": "Official MCP reference server: https://github.com/modelcontextprotocol/servers/tree/main/src/fetch. Optional if your harness already has web fetch."
+      "note": "Optional helper that opens public pages. Skip it when your tool can already browse. Source: https://github.com/modelcontextprotocol/servers/tree/main/src/fetch"
     }
   }
 }

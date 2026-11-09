@@ -1,8 +1,8 @@
 ---
 name: call-prep-sheet
-description: "Builds a one-page brief before a sales or partner call from the company's public site and the notes you have."
+description: "Collects public facts and your notes onto one page."
 license: MIT
-compatibility: "Needs web access."
+compatibility: "Opens the company site you name before the call."
 metadata:
   author: "Drok AI"
   version: "1.0.0"
@@ -11,7 +11,7 @@ metadata:
 
 # Call Prep Sheet
 
-Use this before a call with a company or person someone has not spoken to much.
+Open their site and fold in your notes before you dial.
 
 ## Inputs
 - Company name and website. Person's name and role if known.

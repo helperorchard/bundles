@@ -1,10 +1,8 @@
 # Content Calendar
 
-Plans the next two weeks of posts from your goals and past posts, with a date, channel, and hook for each.
+Fourteen days of posts, each with a day and a hook. Every other Friday at 17:00 fits. If your tool only understands every Friday, run it then and skip the quiet week.
 
-Category: Marketing. Suggested schedule: every other Friday at 17:00 (set every Friday and skip alternate weeks if your tool lacks bi-weekly).
-
-Files: `skills/content-calendar/SKILL.md` (the skill), `memory.md` (facts to fill in and keep), `routines.yaml` (schedule), `mcp.json` (connectors), `goose-recipe.yaml`.
+Channels and voice go in `memory.md`. The Friday 17:00 slot is `routines.yaml`. Planning steps are `skills/content-calendar/SKILL.md`. Take `goose-recipe.yaml` into Goose. `mcp.json` has nothing to sign into.
 
 ## Install
 
@@ -29,6 +27,6 @@ goose schedule add --schedule-id content-calendar --cron "0 0 17 * * 5" --recipe
 Manual copy: put `skills/content-calendar` in `~/.agents/skills/` (Codex, Goose, Cursor) or `~/.claude/skills/` (Claude Code).
 
 ## Connectors
-This bundle uses no connectors.
+The plan stays on the page. Publishing is left to you.
 
 License: MIT. Original writing by Drok AI.

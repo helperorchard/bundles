@@ -1,10 +1,8 @@
 # Social Post Repurpose
 
-Rewrites one piece you already made (blog post, video script, talk) into posts sized for each of your channels.
+Stretch a blog, talk, or script across the places you post. Open it whenever a piece is finished.
 
-Category: Marketing. Run on demand; no schedule suggested.
-
-Files: `skills/social-post-repurpose/SKILL.md` (the skill), `memory.md` (facts to fill in and keep), `routines.yaml` (schedule), `mcp.json` (connectors), `goose-recipe.yaml`.
+Your channels are written in `memory.md`. `routines.yaml` stays empty until you have a finished piece. The rewrite is `skills/social-post-repurpose/SKILL.md`. Goose has `goose-recipe.yaml`. `mcp.json` does not log into a network.
 
 ## Install
 
@@ -27,6 +25,6 @@ goose run --recipe goose-recipe.yaml
 Manual copy: put `skills/social-post-repurpose` in `~/.agents/skills/` (Codex, Goose, Cursor) or `~/.claude/skills/` (Claude Code).
 
 ## Connectors
-This bundle uses no connectors.
+Posts wait until you publish them on your own accounts.
 
 License: MIT. Original writing by Drok AI.

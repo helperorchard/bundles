@@ -1,6 +1,6 @@
 ---
 name: follow-up-nudge
-description: "Looks at your list of open conversations and drafts a short, useful follow-up for each one that has gone quiet. Drafts only."
+description: "Drafts a fresh follow-up when a conversation stalls."
 license: MIT
 metadata:
   author: "Drok AI"
@@ -10,7 +10,7 @@ metadata:
 
 # Follow-up Nudge
 
-Use this when someone has prospects or partners who have not replied and wants follow-ups that are not just "bumping this".
+Bring quiet threads back without a bare bump.
 
 ## Inputs
 - For each open thread: person, company, what you last sent and when, and what they last said if anything.

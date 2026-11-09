@@ -1,10 +1,10 @@
 version: 1.0.0
 title: Bill Due Reminders
-description: "Lists the bills due in the next 10 days from your saved bill list, with amounts and which are on autopay."
+description: "Twice-weekly note of bills that are about to come due."
 instructions: |
   # Bill Due Reminders
 
-  Use this so no bill slips by.
+  Ten days of due dates, with a note on which pay themselves.
 
   ## Inputs
   - The bill list from memory: name, usual amount, due day of month, autopay yes/no.
@@ -26,5 +26,8 @@ instructions: |
 
   # Memory
 
-  - Bills: name | usual amount | due day | autopay yes/no
+  - Each bill I pay: the name, the usual amount, the day, and whether autopay is on.
+  - Treat the amounts as usual ones, and tell me to check the real bill.
+  - The window is the next ten days.
+  - Paying and logging in are mine to do.
 prompt: "Run bill-due-reminders from my bill list in memory."

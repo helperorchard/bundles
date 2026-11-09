@@ -1,6 +1,6 @@
 ---
 name: supplier-reorder-check
-description: "Compares your stock counts with reorder points and drafts the purchase list per supplier. Does not place orders."
+description: "Compares on-hand counts with the points you set."
 license: MIT
 metadata:
   author: "Drok AI"
@@ -10,7 +10,7 @@ metadata:
 
 # Supplier Reorder Check
 
-Use this for a small shop, kitchen, or studio that counts stock by hand.
+Count the shelf, then see who you would reorder from.
 
 ## Inputs
 - Current counts: item and quantity on hand.

@@ -1,10 +1,8 @@
 # Weekly Meal Plan
 
-Plans dinners for the week around your diet, time limits, and what is already in the fridge, plus one shopping list.
+A week's dinners that respect your time and your diet. Saturday at 10:00, so the shop can happen the same day.
 
-Category: Personal. Suggested schedule: every Saturday at 10:00.
-
-Files: `skills/weekly-meal-plan/SKILL.md` (the skill), `memory.md` (facts to fill in and keep), `routines.yaml` (schedule), `mcp.json` (connectors), `goose-recipe.yaml`.
+People, allergies, and busy nights go in `memory.md`. Saturday 10:00 is `routines.yaml`. Planning steps are `skills/weekly-meal-plan/SKILL.md`. `goose-recipe.yaml` is the Saturday run. `mcp.json` does not open a grocer.
 
 ## Install
 
@@ -29,6 +27,6 @@ goose schedule add --schedule-id weekly-meal-plan --cron "0 0 10 * * 6" --recipe
 Manual copy: put `skills/weekly-meal-plan` in `~/.agents/skills/` (Codex, Goose, Cursor) or `~/.claude/skills/` (Claude Code).
 
 ## Connectors
-This bundle uses no connectors.
+Fridge contents come from you, and no shop is opened.
 
 License: MIT. Original writing by Drok AI.

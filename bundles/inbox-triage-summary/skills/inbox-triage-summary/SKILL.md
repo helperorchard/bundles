@@ -1,8 +1,8 @@
 ---
 name: inbox-triage-summary
-description: "Sorts the emails you paste or export into reply-today, this-week, read-later, and ignore, with a one-line reason each."
+description: "Puts the mail that needs you today at the top."
 license: MIT
-compatibility: "Works with pasted email, or an email connector if your tool has one."
+compatibility: "Works from pasted mail, or a mailbox your tool already reads."
 metadata:
   author: "Drok AI"
   version: "1.0.1"
@@ -11,7 +11,7 @@ metadata:
 
 # Inbox Triage Summary
 
-Use this when someone has a pile of unread email and wants to know what matters.
+Work through a pile of mail and say what deserves a reply.
 
 ## Inputs
 - Emails as pasted text or an export: sender, subject, date, and body or first lines.
